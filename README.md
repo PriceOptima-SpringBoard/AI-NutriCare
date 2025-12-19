@@ -11,6 +11,7 @@ AI-NutriCare bridges this gap by providing a personalized, data-driven diet plan
 
 ### Repository Structure
 AI-NutriCare/
+
 -`Milestone-1/`
    - `Milestone-1: Data Collection and Preprocessing.ipynb`
    - `ReadMe.md`
