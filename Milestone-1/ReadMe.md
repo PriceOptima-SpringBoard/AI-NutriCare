@@ -12,3 +12,13 @@ This milestone focuses on data collection, preprocessing, and dynamic time-serie
 - [x] Save the processed dataset for downstream modeling.
 
 ### Dataset Composition
+Each patient/ICU stay is represented as a 24-hour multivariate time-series:
+| Feature Group | Examples |
+|---------------|----------|
+| Vitals | Heart Rate,Respiration Rate, Systolic BP, Diastolic BP, SpO2, Temperature |
+| Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
+| Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
+| Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+
+
+
