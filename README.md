@@ -10,15 +10,14 @@ Patients often struggle to interpret their medical reports and adjust their diet
 AI-NutriCare bridges this gap by providing a personalized, data-driven diet plan that adapts to the patient’s medical context.
 
 ### Repository Structure
-AI-NutriCare/
-
--`Milestone-1/`
-   - `Milestone-1: Data Collection and Preprocessing.ipynb`
-   - `ReadMe.md`
-- `Milestone-2/`
-- `Milestone-3/`
-- `Milestone-4/`
-- `README.md`
+- AI-NutriCare/
+  - `Milestone-1/`
+    - `Milestone-1: Data Collection and Preprocessing.ipynb`
+    - `ReadMe.md`
+  - `Milestone-2/`
+  - `Milestone-3/`
+  - `Milestone-4/`
+  - `README.md`
 
 ### MILESTONES
 #### Milestone-1: Data Collection and Preprocessing
