@@ -22,6 +22,55 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 - [x] Extract patient outcome labels (y) for mortality prediction.
 - [x] Save the processed dataset for downstream modeling.
 
+### 🔧 Key Processing Steps Done:
+1️⃣ Data Collection & Filtering
+- Selected ICU stays with sufficient data coverage.
+- Filtered relevant vitals, labs, fluids, and medications.
+- Ensured consistent identifiers (subject_id, stay_id) across datasets.
+
+2️⃣ Time-Series Construction (24-Hour Window)
+- Converted irregular clinical events into a fixed 24-hour hourly time-series.
+- Aggregated multiple measurements per hour using statistical summaries.
+- Ensured uniform temporal alignment across all feature groups.
+
+3️⃣ ICU Vital Sign Processing
+- Extracted and normalized key vitals including:
+  - Heart Rate
+  - Respiratory Rate
+  - Mean Arterial Pressure(MAP)
+  - SpO₂
+  - Body Temperature
+- Missing values were handled using forward fill / statistical imputation strategies.
+
+4️⃣ Laboratory Feature Engineering
+- Processed core lab parameters such as:
+  - Glucose
+  - Creatinine
+  - WBC
+  - Lactate
+  - Sodium
+  - Potassium
+  - Hemoglobin
+  - Urea
+  - pH
+  - Cholesterol
+- Lab values were aligned to the same 24-hour timeline as ICU vitals.
+
+5️⃣ Medication Feature Encoding
+- Mapped prescribed drugs into clinically meaningful medication classes:
+  - Vasopressors
+  - Sedatives
+  - Antibiotics
+  - Insulin
+- Encoded medication usage as binary indicators per hour.
+
+6️⃣ Fluid Balance Computation
+- Extracted fluid input (IV fluids, medications).
+- Extracted fluid output (urine output).
+- Computed net fluid balance per hour:
+             `Fluid Balance = Total Input − Total Output`
+
+
 ### 📈Dataset Composition
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Feature Group | Examples |
@@ -30,6 +79,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
 | Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+
 
 
 
