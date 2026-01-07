@@ -15,12 +15,12 @@ Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-de
 ### Repository Structure
 - AI-NutriCare/
   - `Dataset`
-  - `Milestone-1/`
+  - `Milestone_1/`
     - `Milestone-1: Data Collection and Preprocessing.ipynb`
     - `ReadMe.md`
-  - `Milestone-2/`
-  - `Milestone-3/`
-  - `Milestone-4/`
+  - `Milestone_2/`
+  - `Milestone_3/`
+  - `Milestone_4/`
   - `README.md`
 
 ### MILESTONES
