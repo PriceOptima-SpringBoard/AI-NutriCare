@@ -97,10 +97,12 @@ Final dataset reflects fully aligned and validated ICU stays.
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Feature Group | Examples |
 |---------------|----------|
-| Vitals | Heart Rate,Respiration Rate, Systolic BP, Diastolic BP, SpO2, Temperature |
-| Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
-| Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
+| Vitals | Heart Rate,Respiration Rate, MAP, SpO2, Temperature |
+| Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea, pH, Cholesterol |
+| Fluids | Fluid Balance [Input(IVs/Medication) - Output(Urine)] |
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+| Demographic | Age, Gender |
+
 
 
 
