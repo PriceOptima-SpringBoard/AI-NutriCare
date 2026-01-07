@@ -71,6 +71,25 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
   
              Fluid Balance = Total Input − Total Output
 
+7️⃣ Demographic Feature Integration
+- Added static patient features:
+  - Age
+  - Gender
+- These features were replicated across all 24 time steps to maintain time-series compatibility.
+
+8️⃣ Dataset Assembly
+- Merged all feature groups into a single multivariate tensor:
+  - **Shape: (Patients × 24 hours × Features)**
+- Created:
+`X`: Time-series feature tensor
+`y`: Outcome labels (mortality)
+
+9️⃣ Data Validation & Consistency Checks
+- Verified feature-to-column alignment.
+- Ensured consistent sequence length (24 hours).
+- Removed ICU stays with incomplete or incompatible data.
+
+Final dataset reflects fully aligned and validated ICU stays.
 
 ### 📈Dataset Composition
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
@@ -80,6 +99,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
 | Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+
 
 
 
