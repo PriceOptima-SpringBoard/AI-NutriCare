@@ -81,8 +81,10 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 - Merged all feature groups into a single multivariate tensor:
   - **Shape: (Patients × 24 hours × Features)**
 - Created:
-`X`: Time-series feature tensor
-`y`: Outcome labels (mortality)
+
+`X`: `Time-series feature tensor`
+
+`y`: `Outcome labels (mortality)`
 
 9️⃣ Data Validation & Consistency Checks
 - Verified feature-to-column alignment.
@@ -99,6 +101,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
 | Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+
 
 
 
