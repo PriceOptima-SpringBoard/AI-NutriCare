@@ -69,7 +69,7 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 - Extracted fluid output (urine output).
 - Computed net fluid balance per hour:
   
-             `Fluid Balance = Total Input − Total Output`
+             Fluid Balance = Total Input − Total Output
 
 
 ### 📈Dataset Composition
@@ -80,6 +80,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Labs | Glucose, Creatinine, WBC, Lactate, Sodium, Potassium, Hemoglobin, Urea |
 | Fluids | Input (IVs/Medication), Output (Urine), Fluid Balance (Input - Output) |
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
+
 
 
 
