@@ -15,6 +15,7 @@ This phase uses the processed outputs from the EDA milestone, including:
   Demographic features:
   - Age
   - Gender
+
 All inputs are prevalidated and temporally aligned from Milestone 1.
 
 ### 📌Steps Performed
