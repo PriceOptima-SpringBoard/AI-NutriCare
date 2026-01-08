@@ -19,6 +19,8 @@ Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-de
     - `Milestone-1: Data Collection and Preprocessing.ipynb`
     - `ReadMe.md`
   - `Milestone_2/`
+    - `Milestone-2: ML Based Health Analysis.ipynb`
+    - `ReadMe.md`
   - `Milestone_3/`
   - `Milestone_4/`
   - `README.md`
