@@ -42,21 +42,6 @@ All inputs are **prevalidated**, **standardized**, and **temporally aligned** fr
 
 ---
 
-### 📈 Expected Outcome  
-
-- Identification of key temporal health indicators.  
-- Reliable predictive models for patient outcome and nutrition risk.  
-- Framework for integrating risk predictions into **personalized diet planning (Milestone-3)**.  
-
----
-
-### 🧠 Next Steps  
-
-- Incorporate **explainable AI (XAI)** for clinical interpretability.  
-- Use trained models to influence **dynamic nutrition recommendations**.  
-- Prepare model outputs for integration in the **diet plan generation pipeline**.  
-
----
 
 **📁 Folder:** `AI-NutriCare/Milestone_2/`  
 **Main Notebook:** `Milestone-2: ML-Based Health Analysis.ipynb`  
