@@ -1,6 +1,4 @@
-# AI-ML Based Personalized Diet Plan Generator - Milestone 1
-
-## Data Processing Pipeline
+# Data Processing Pipeline
 
 Raw Clinical Data
 +----------------+-------------------+-----------------+-----------------+
