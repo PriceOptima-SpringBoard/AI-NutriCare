@@ -1,30 +1,65 @@
-# AI-ML Based Personalized Diet Plan Generator
-## 🎯Milestone-2
-This milestone focuses on training deep learning models on ICU time-series data to predict patient outcomes and clinical risk.
-The objective is to learn temporal patterns from 24-hour ICU data and generate interpretable risk predictions that can be used for downstream nutrition and intervention planning.
+# 🧠 AI-NutriCare  
+## AI/ML-Based Personalized Diet Plan Generator  
 
-### 📂Inputs used:
-This phase uses the processed outputs from the EDA milestone, including:
-- Time-series feature tensor (X)
-  - Shape: (Patients × 24 hours × Features)
-- Outcome labels (y):
-  - Mortality (binary)
-  - Length of Stay (LOS – regression, optional)
-  - Nutrition Risk Index (NRI – derived metric)
-- Feature mappings
-  Demographic features:
-  - Age
-  - Gender
+---
 
-All inputs are prevalidated and temporally aligned from Milestone 1.
+## 🎯 Milestone-2: ML-Based Health Analysis  
 
-### 📌Steps Performed
-- [x] Load processed ICU time-series dataset.
-- [x] Split data into training and validation sets.
-- [x] Build deep learning models for risk prediction.
-- [x] Train both single-task and multi-task learning architectures.
-- [x] Evaluate model performance over time.
-- [x] Generate patient-level risk trajectories.
-- [x] Compute derived clinical risk indices (NRI).
-- [x] Save trained models and prediction artifacts for downstream simulation.
+This milestone focuses on **training deep learning models** on **ICU time-series data** to predict **patient outcomes and clinical risk factors**.  
+The objective is to **learn temporal patterns** from 24-hour ICU data and generate **interpretable risk predictions** that can guide **personalized nutrition and intervention planning**.
+
+---
+
+### 📂 Inputs Used  
+
+This milestone utilizes the **processed outputs from Milestone-1 (EDA & Preprocessing)**, including:  
+
+- **Time-Series Feature Tensor (X):**  
+  - Shape: *(Patients × 24 hours × Features)*  
+- **Outcome Labels (y):**  
+  - *Mortality* (binary classification)  
+  - *Length of Stay (LOS)* — regression (optional)  
+  - *Nutrition Risk Index (NRI)* — derived metric  
+- **Feature Mappings:**  
+  - Demographic Features:  
+    - Age  
+    - Gender  
+
+All inputs are **prevalidated**, **standardized**, and **temporally aligned** from Milestone 1 to ensure consistency.
+
+---
+
+### 📌 Steps Performed  
+
+- [x] Load preprocessed ICU time-series dataset.  
+- [x] Split data into training and validation subsets.  
+- [x] Build **deep learning models** for risk prediction.  
+- [x] Train both **single-task** and **multi-task learning** architectures.  
+- [x] Evaluate model performance over temporal sequences.  
+- [x] Generate **patient-level risk trajectories**.  
+- [x] Compute derived **clinical risk indices (NRI)**.  
+- [x] Save trained models and prediction artifacts for downstream simulation and diet plan generation.  
+
+---
+
+### 📈 Expected Outcome  
+
+- Identification of key temporal health indicators.  
+- Reliable predictive models for patient outcome and nutrition risk.  
+- Framework for integrating risk predictions into **personalized diet planning (Milestone-3)**.  
+
+---
+
+### 🧠 Next Steps  
+
+- Incorporate **explainable AI (XAI)** for clinical interpretability.  
+- Use trained models to influence **dynamic nutrition recommendations**.  
+- Prepare model outputs for integration in the **diet plan generation pipeline**.  
+
+---
+
+**📁 Folder:** `AI-NutriCare/Milestone_2/`  
+**Main Notebook:** `Milestone-2: ML-Based Health Analysis.ipynb`  
+
+---
 
