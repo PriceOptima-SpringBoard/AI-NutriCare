@@ -27,13 +27,21 @@ Most existing diet plans are **generic** and **ignore the individual’s medical
 
 ## 📊 Dataset Used  
 
-**Dataset Source:** [MIMIC-IV Clinical Database Demo (Kaggle)](https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2)  
+**Dataset Source:** [MIMIC-IV Clinical Database Demo (Kaggle)](https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2) 
 
-The dataset includes both **ICU and general patient data**, such as lab test results, medications, and clinical notes.  
-It serves as a foundation for training and validating AI models used in healthcare and nutrition analytics
-
-
-
+---
+### Repository Structure
+- AI-NutriCare/
+  - `Dataset`
+  - `Milestone_1/`
+    - `Milestone-1: Data Collection and Preprocessing.ipynb`
+    - `ReadMe.md`
+  - `Milestone_2/`
+    - `Milestone-2: ML Based Health Analysis.ipynb`
+    - `ReadMe.md`
+  - `Milestone_3/`
+  - `Milestone_4/`
+  - `README.md`
 ---
 
 ## 📆 Project Milestones  
