@@ -50,16 +50,17 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
 | Demographic | Age, Gender |
 
-### 💾Output 
-- Processed feature tensor (X)
-- Outcome labels (y)
-- Feature name mappings
-- Saved intermediate and final datasets for reproducibility
+### 💾 Output
+- Feature tensor (`X`)
+- Outcome labels (`y`)
+- Feature mappings
+- Reproducible saved datasets
 
-### ☑️Outcome of Milestone-1
-- Successfully transformed raw clinical data into a model-ready dataset
-- Ensured temporal consistency, feature completeness, and label alignment
-- Established a solid foundation for ML/DL model training in subsequent phases
+### ☑️ Outcome of Milestone-1
+- Raw ICU data → model-ready time-series dataset  
+- Temporal consistency and label alignment ensured  
+- Ready for ML/DL training in Milestone-2
+
 
 
 
