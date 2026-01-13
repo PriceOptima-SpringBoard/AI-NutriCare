@@ -43,8 +43,8 @@ machine learning model development.
 
 ## Tools Used
 - Python
-- Pandas, NumPy
-- Jupyter Notebook
+- Pandas,NumPy,Matplot,Seaborn
+- VS code
 
 ---
 
