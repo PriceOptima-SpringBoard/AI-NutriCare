@@ -1,0 +1,86 @@
+{
+    "Glucose": {
+        "name": "Glucose",
+        "value": "157.07",
+        "unit": "mg/dL",
+        "raw_match": "Glucose 157.07"
+    },
+    "Insulin": {
+        "name": "Insulin",
+        "value": null,
+        "unit": "µIU/mL",
+        "raw_match": ""
+    },
+    "Creatinine": {
+        "name": "Creatinine",
+        "value": "0.83",
+        "unit": "mg/dL",
+        "raw_match": "Creatinine, Serum 0.83"
+    },
+    "Urea (BUN)": {
+        "name": "Urea (BUN)",
+        "value": "8.41",
+        "unit": "mg/dL",
+        "raw_match": "Blood Urea Nitrogen L 8.41"
+    },
+    "Sodium": {
+        "name": "Sodium",
+        "value": "143.00",
+        "unit": "mmol/L",
+        "raw_match": "Sodium (Na+) 143.00"
+    },
+    "Potassium": {
+        "name": "Potassium",
+        "value": "4.90",
+        "unit": "mmol/L",
+        "raw_match": "Potassium (K+) 4.90"
+    },
+    "Hemoglobin": {
+        "name": "Hemoglobin",
+        "value": "14.5",
+        "unit": "g/dL",
+        "raw_match": "Hemoglobin 14.5"
+    },
+    "WBC": {
+        "name": "WBC",
+        "value": "10570",
+        "unit": "/cmm",
+        "raw_match": "WBC Count H10570"
+    },
+    "Lactate": {
+        "name": "Lactate",
+        "value": null,
+        "unit": "mmol/L",
+        "raw_match": ""
+    },
+    "pH": {
+        "name": "pH",
+        "value": "6.0",
+        "unit": "",
+        "raw_match": "pH 6.0"
+    },
+    "Age": {
+        "name": "Age",
+        "value": "41",
+        "unit": "years",
+        "raw_match": "Sex/Age : Male / 41"
+    },
+    "Gender": {
+        "name": "Gender",
+        "value": "Male",
+        "unit": "",
+        "raw_match": "Sex/Age : Male"
+    },
+    "Cholestrol": {
+        "name": "Cholestrol",
+        "value": "189.0",
+        "unit": "mg/dL",
+        "raw_match": "Cholesterol 189.0"
+    },
+    "HbA1c": {
+        "name": "HbA1c",
+        "value": "7.10",
+        "unit": "%",
+        "raw_match": "HbA1c H 7.10"
+    }
+}
