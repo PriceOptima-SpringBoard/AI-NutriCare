@@ -38,7 +38,7 @@ AI-NutriCare addresses these challenges by:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 AI-NutriCare/
@@ -87,7 +87,6 @@ Train a **leakage-free LSTM model** to predict whether a patient will experience
 - Handled class imbalance using class-weighted training
 - Evaluated performance using:
   - Accuracy
-  - ROC-AUC
   - Confusion Matrix
 - Implemented **clinical input validation rules** to reject unsafe or unrealistic inputs
 - Generated severity-aware outputs used for **diet recommendation logic**
