@@ -50,6 +50,8 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
 | Demographic | Age, Gender |
 
+---
+
 ### 💾 Output
 - Feature tensor (`X`)
 - Outcome labels (`y`)
@@ -60,6 +62,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Raw ICU data → model-ready time-series dataset  
 - Temporal consistency and label alignment ensured  
 - Ready for ML/DL training in Milestone-2
+
 
 
 
