@@ -50,7 +50,7 @@ machine learning model development.
 
 ## Output
 - Cleaned and preprocessed dataset
-- Input for Milestone 2 model training
+- Saved two dynamic datasets X.npy and Y.npy which are input for Milestone-2.
 
 ---
 
