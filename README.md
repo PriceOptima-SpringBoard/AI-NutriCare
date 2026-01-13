@@ -61,9 +61,7 @@ AI-NutriCare/
 │   └── lstm_scaler.pkl
 │
 └── README.md
-
-
-
+```
 ## Milestone-1: Data Collection & Preprocessing
 
 ### 🔹 Objective
@@ -75,8 +73,6 @@ Ingest, clean, and harmonize **multi-source ICU data** into a **fixed-length (24
 - Handled missing values using forward and backward filling
 - Performed extensive EDA (distributions, correlations, outliers)
 - Generated the final dataset: `final_lstm_data.csv`
-
----
 
 ##  Milestone-2: Machine Learning–Based Health Analysis
 
@@ -96,4 +92,4 @@ Train a **leakage-free LSTM model** to predict whether a patient will experience
 - Implemented **clinical input validation rules** to reject unsafe or unrealistic inputs
 - Generated severity-aware outputs used for **diet recommendation logic**
 - Exported final test evaluations to **PDF format**
-
+---
