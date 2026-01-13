@@ -93,6 +93,20 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 
 Final dataset reflects fully aligned and validated ICU stays.
 
+## 🔧 Key Processing Steps Done
+
+| Step | Processing Stage | Description | Output |
+|------|------------------|-------------|--------|
+| 1 | Data Selection & Filtering | Selected ICU stays with sufficient data coverage; ensured consistent subject and stay identifiers | Clean ICU cohort |
+| 2 | Time-Series Alignment | Converted irregular clinical events into fixed 24-hour hourly time bins | Uniform time index |
+| 3 | Vital Sign Processing | Normalized HR, RR, MAP, SpO₂, and Temperature; handled missing values via imputation | Vitals time-series |
+| 4 | Laboratory Feature Engineering | Aligned core lab parameters (Glucose, Creatinine, WBC, Lactate, Electrolytes) to 24-hour window | Lab time-series |
+| 5 | Medication Encoding | Mapped prescribed drugs to clinical classes; encoded hourly binary indicators | Medication features |
+| 6 | Fluid Balance Computation | Computed hourly net fluid balance (Total Input − Total Output) | Fluid features |
+| 7 | Demographic Integration | Added age and gender; replicated across all time steps | Static features |
+| 8 | Dataset Assembly | Merged all feature groups into multivariate tensor `(Patients × 24 × Features)` | Feature tensor (X) |
+| 9 | Validation & Quality Checks | Verified sequence length, feature alignment, and data completeness | Model-ready dataset |
+
 ### 📈Dataset Composition
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Feature Group | Examples |
@@ -113,6 +127,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Successfully transformed raw clinical data into a model-ready dataset
 - Ensured temporal consistency, feature completeness, and label alignment
 - Established a solid foundation for ML/DL model training in subsequent phases
+
 
 
 
