@@ -12,6 +12,8 @@ This milestone focuses on data collection, preprocessing, and dynamic time-serie
 
 _All sources aligned using `subject_id` and `stay_id`._
 
+---
+
 ### 📌Steps Performed:
 - [x] Collect and merge patient medical data from multiple sources (ICU vitals, lab results, fluid balance, prescriptions).
 - [x] Preprocess numeric and textual data into a standardized 24-hour time-series format.
@@ -56,6 +58,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Successfully transformed raw clinical data into a model-ready dataset
 - Ensured temporal consistency, feature completeness, and label alignment
 - Established a solid foundation for ML/DL model training in subsequent phases
+
 
 
 
