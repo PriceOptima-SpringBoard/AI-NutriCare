@@ -1,7 +1,7 @@
 # AI-ML Based Personalized Diet Plan Generator
 ## 🎯Milestone-2
-This milestone focuses on training deep learning models on ICU time-series data to predict patient outcomes and clinical risk.
-The objective is to learn temporal patterns from 24-hour ICU data and generate interpretable risk predictions that can be used for downstream nutrition and intervention planning.
+> This milestone focuses on training deep learning models on 24-hour ICU time-series data to predict patient outcomes and clinical risk. The goal is to capture
+> temporal patterns in critical care data and produce interpretable risk predictions that support downstream nutrition planning and clinical interventions.
 
 ---
 
