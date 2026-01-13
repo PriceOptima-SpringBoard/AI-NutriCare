@@ -3,6 +3,8 @@
 This milestone focuses on training deep learning models on ICU time-series data to predict patient outcomes and clinical risk.
 The objective is to learn temporal patterns from 24-hour ICU data and generate interpretable risk predictions that can be used for downstream nutrition and intervention planning.
 
+---
+
 ### 📂 Inputs Used
 
 **1. Model Features**
@@ -22,6 +24,8 @@ The objective is to learn temporal patterns from 24-hour ICU data and generate i
   - Gender
 
 All inputs are prevalidated and temporally aligned from Milestone 1.
+
+---
 
 ### 📌Steps Performed
 - [x] Load processed ICU time-series dataset.
