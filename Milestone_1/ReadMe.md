@@ -38,6 +38,8 @@ _All sources aligned using `subject_id` and `stay_id`._
 | 8 | Dataset Assembly | Merged all feature groups into multivariate tensor `(Patients × 24 × Features)` | Feature tensor (X) |
 | 9 | Validation & Quality Checks | Verified sequence length, feature alignment, and data completeness | Model-ready dataset |
 
+---
+
 ### 📈Dataset Composition
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Feature Group | Examples |
@@ -58,6 +60,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Successfully transformed raw clinical data into a model-ready dataset
 - Ensured temporal consistency, feature completeness, and label alignment
 - Established a solid foundation for ML/DL model training in subsequent phases
+
 
 
 
