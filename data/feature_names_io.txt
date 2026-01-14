@@ -1,0 +1,15 @@
+Heart Rate
+MAP
+Resp Rate
+O2 Sat
+Temp
+Glucose
+Sodium
+Potassium
+Creatinine
+Hemoglobin
+WBC
+Lactate
+Total Input
+Total Output
+Fluid Balance
