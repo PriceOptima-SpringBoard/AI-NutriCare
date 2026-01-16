@@ -7,7 +7,7 @@ All preprocessing, feature engineering, and temporal alignment are performed usi
 
 ---
 
-## 📂 Data Sources Used
+## Data Sources Used
 The following MIMIC-IV tables were used:
 
 - **Patients** – demographics (age, gender)
@@ -27,7 +27,7 @@ All datasets are aligned using:
 
 ---
 
-## 🧪 Key Notebooks
+## Key Notebooks
 | Notebook | Description |
 |--------|------------|
 | admissions.ipynb | Admission types, LOS, mortality analysis |
@@ -39,7 +39,7 @@ All datasets are aligned using:
 
 ---
 
-## 🛠️ Processing Steps Performed
+## Processing Steps Performed
 
 ### 1️⃣ Data Selection & Filtering
 - Selected valid ICU stays (LOS > 0 and ≤ 30 days)
@@ -135,7 +135,7 @@ Repeated across time steps for LSTM compatibility.
 
 ---
 
-## 📈 Final Outputs
+## Final Outputs
 Saved in `Data/Processed/`:
 
 - `master_static.csv` → ML-ready tabular dataset
@@ -151,7 +151,7 @@ Saved in `Data/Processed/`:
 
 ---
 
-## 🚀 Next Milestone
+## Next Milestone
 **Milestone-2:**  
 - long-stay prediction  
 
