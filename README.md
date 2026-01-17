@@ -7,6 +7,20 @@ The system processes medical data, applies a basic machine-learning model, and u
 ## Dataset Used:
 https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2?resource=download
 
+### Repository Structure
+
+- AI-NutriCare/
+  - `Dataset`
+  - `Milestone_1/`
+    - `Milestone1.ipynb`
+    - `ReadMe.md`
+  - `Milestone_2/`
+    - `Milestone2.ipynb`
+    - `ReadMe.md`
+  - `Milestone_3/`
+  - `Milestone_4/`
+  - `README.md`
+    
 ## 🚀Project Milestones
 ### ✨Milestone 1
 
