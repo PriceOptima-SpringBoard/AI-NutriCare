@@ -1,86 +1,62 @@
 {
     "Glucose": {
-        "name": "Glucose",
-        "value": "157.07",
+        "value": "146",
         "unit": "mg/dL",
-        "raw_match": "Glucose 157.07"
-    },
-    "Insulin": {
-        "name": "Insulin",
-        "value": null,
-        "unit": "µIU/mL",
-        "raw_match": ""
-    },
-    "Creatinine": {
-        "name": "Creatinine",
-        "value": "0.83",
-        "unit": "mg/dL",
-        "raw_match": "Creatinine, Serum 0.83"
-    },
-    "Urea (BUN)": {
-        "name": "Urea (BUN)",
-        "value": "8.41",
-        "unit": "mg/dL",
-        "raw_match": "Blood Urea Nitrogen L 8.41"
-    },
-    "Sodium": {
-        "name": "Sodium",
-        "value": "143.00",
-        "unit": "mmol/L",
-        "raw_match": "Sodium (Na+) 143.00"
-    },
-    "Potassium": {
-        "name": "Potassium",
-        "value": "4.90",
-        "unit": "mmol/L",
-        "raw_match": "Potassium (K+) 4.90"
-    },
-    "Hemoglobin": {
-        "name": "Hemoglobin",
-        "value": "14.5",
-        "unit": "g/dL",
-        "raw_match": "Hemoglobin 14.5"
-    },
-    "WBC": {
-        "name": "WBC",
-        "value": "10570",
-        "unit": "/cmm",
-        "raw_match": "WBC Count H10570"
-    },
-    "Lactate": {
-        "name": "Lactate",
-        "value": null,
-        "unit": "mmol/L",
-        "raw_match": ""
-    },
-    "pH": {
-        "name": "pH",
-        "value": "6.0",
-        "unit": "",
-        "raw_match": "pH 6.0"
-    },
-    "Age": {
-        "name": "Age",
-        "value": "41",
-        "unit": "years",
-        "raw_match": "Sex/Age : Male / 41"
-    },
-    "Gender": {
-        "name": "Gender",
-        "value": "Male",
-        "unit": "",
-        "raw_match": "Sex/Age : Male"
-    },
-    "Cholestrol": {
-        "name": "Cholestrol",
-        "value": "189.0",
-        "unit": "mg/dL",
-        "raw_match": "Cholesterol 189.0"
+        "raw_match": "Glucose - Fasting\nGlucose fasting 146"
     },
     "HbA1c": {
-        "name": "HbA1c",
-        "value": "7.10",
+        "value": "8.2",
         "unit": "%",
-        "raw_match": "HbA1c H 7.10"
+        "raw_match": "HBA1c)\nTest Description Value(s) Reference Range\nGlyco Hb (HbA1C) 8.2"
+    },
+    "Creatinine": {
+        "value": "8.41",
+        "unit": "mg/dL",
+        "raw_match": "Creatinine Ratio\nBUN 8.41"
+    },
+    "Urea": {
+        "value": "18",
+        "unit": "mg/dL",
+        "raw_match": "UREA* 18"
+    },
+    "Hemoglobin": {
+        "value": "14.7",
+        "unit": "g/dL",
+        "raw_match": "Haemoglobin 14.7"
+    },
+    "WBC": {
+        "value": "5520",
+        "unit": "/cmm",
+        "raw_match": "Total WBC Count 5520"
+    },
+    "Cholesterol": {
+        "value": "263",
+        "unit": "mg/dL",
+        "raw_match": "Cholesterol-Total 263"
+    },
+    "Triglycerides": {
+        "value": "293",
+        "unit": "mg/dL",
+        "raw_match": "Triglycerides 293"
+    },
+    "TSH": {
+        "value": "7.415",
+        "unit": "\u00b5IU/mL",
+        "raw_match": "Thyroid Stimulating Hormone (TSH)\nTSH(THYROID STIMULATING HORMONE) 7.415"
+    },
+    "Vitamin D": {
+        "value": null,
+        "unit": "ng/mL",
+        "raw_match": "Not Found"
+    },
+    "Vitamin B12": {
+        "value": null,
+        "unit": "pg/mL",
+        "raw_match": "Not Found"
+    },
+    "Age": {
+        "value": "54",
+        "unit": "Years",
+        "raw_match": "Age / Gender : 54 years"
     }
 }

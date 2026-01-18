@@ -1,0 +1,30 @@
+{
+    "patient_metrics": {
+        "mortality_risk": 0.32739484310150146,
+        "glucose": 146.0,
+        "creatinine": 8.41
+    },
+    "conditions": [
+        "Moderate Clinical Risk",
+        "Diabetes (Type 2 / Hyperglycemia)",
+        "Renal Stress / Kidney Strain"
+    ],
+    "avoid": [
+        "Fruit juices",
+        "White bread",
+        "Processed sugars",
+        "High-GI foods",
+        "High sodium foods",
+        "Excessive red meat",
+        "Processed deli meats"
+    ],
+    "recommend": [
+        "Complex carbohydrates",
+        "High fiber foods (>30g/day)",
+        "Leafy greens",
+        "Low-potassium vegetables",
+        "Cauliflower",
+        "Berries"
+    ],
+    "summary": "Patient requires dietary management and monitoring."
+}

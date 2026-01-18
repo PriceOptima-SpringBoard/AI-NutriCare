@@ -1,0 +1,11 @@
+Test Case ID,Clinical Scenario,Input Labs,Doctor Notes,Expected Constraints,Expected Breakfast,Expected Lunch,Expected Dinner,Must NOT Include,Expected Outcome
+TC-01,High Diabetes,Glucose=240,Advise diabetic diet,low_sugar=restrict,"Oatmeal, Eggs","Brown rice, Vegetables",Vegetable soup,"Sweets, Juice","Glucose reduces, risk lowered"
+TC-02,Renal Patient,Creatinine=2.6,Renal precautions,low_protein=restrict,"Fruit bowl, Toast","Rice, Vegetables","Soup, Salad","Red meat, Eggs",Creatinine stabilizes
+TC-03,Cardiac Patient,Sodium=152,Low salt diet,low_sodium=restrict,Oatmeal,Steamed vegetables,Lentil soup,"Pickles, Chips",Sodium decreases
+TC-04,Multi-condition,"Glucose=220, Creatinine=2.1, Cholesterol=260",Diet control,"low_sugar, low_protein, low_fat","Oats, Fruit",Vegetable rice,"Soup, Salad","Fried food, Sweets",Overall risk reduced
+TC-05,Ambiguous Notes,BP High,Diet as tolerated,low_sodium=restrict,Oatmeal,"Plain rice, Vegetables",Vegetable soup,Salty food,BP improves
+TC-06,Negation Case,Normal labs,No fluid restriction required,fluid_restriction=allow,Fruits,"Rice, Curry",Soup,,Hydration maintained
+TC-07,Healthy Patient,All labs normal,Healthy balanced diet,minimal,"Eggs, Toast","Rice, Protein",Light dinner,,Stable health
+TC-08,Missing Sodium,Sodium missing,Low salt diet,low_sodium=restrict,Oatmeal,Vegetables,Soup,Salty snacks,Safe diet generated
+TC-09,Repeatability,Same labs twice,Same notes,Same constraints,Varies but safe,Varies but safe,Varies but safe,Forbidden foods,Consistent logic
+TC-10,End-to-End,Mixed labs,Mixed notes,Resolved constraints,Present,Present,Present,Unsafe food,Pipeline stable

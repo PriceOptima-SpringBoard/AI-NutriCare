@@ -1,0 +1,94 @@
+{
+  "day_plan": {
+    "breakfast": [
+      {
+        "item": "Theeyal",
+        "calories": 155.0,
+        "protein": 14.0,
+        "fat": 31.0,
+        "carbs": 16.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "high_protein",
+          "renal_safe"
+        ]
+      },
+      {
+        "item": "Brown Rice",
+        "calories": 139.0,
+        "protein": 14.0,
+        "fat": 13.0,
+        "carbs": 22.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "high_protein",
+          "renal_safe"
+        ]
+      }
+    ],
+    "lunch": [
+      {
+        "item": "Keerai kootu",
+        "calories": 278.0,
+        "protein": 8.0,
+        "fat": 37.0,
+        "carbs": 11.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "renal_safe"
+        ]
+      }
+    ],
+    "dinner": [
+      {
+        "item": "Vindaloo",
+        "calories": 220.0,
+        "protein": 11.0,
+        "fat": 30.0,
+        "carbs": 10.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "high_protein",
+          "renal_safe"
+        ]
+      }
+    ],
+    "snacks": [
+      {
+        "item": "Paruppu sadam",
+        "calories": 41.0,
+        "protein": 9.0,
+        "fat": 15.0,
+        "carbs": 12.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "renal_safe"
+        ]
+      },
+      {
+        "item": "Chicken Tikka masala",
+        "calories": 59.0,
+        "protein": 9.0,
+        "fat": 11.0,
+        "carbs": 11.0,
+        "tags": [
+          "diabetic_friendly",
+          "low_sugar",
+          "renal_safe"
+        ]
+      }
+    ]
+  },
+  "total_nutrition": {
+    "calories": 892.0,
+    "protein": 66.0,
+    "fat": 137.0,
+    "carbs": 83.0
+  },
+  "medical_reasoning": "This meal plan for Rajesh Kumar focuses on dietary management and monitoring by selecting items that are consistently tagged as diabetic-friendly, low in sugar, and renal-safe. The plan incorporates high-protein options to support overall health and satiety, while managing carbohydrate and fat intake. The selected foods aim to provide a balanced nutritional profile within the constraints of the provided candidate list and medical tags."
+}
