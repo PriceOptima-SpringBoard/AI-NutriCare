@@ -30,7 +30,7 @@ MODEL_PATH = r"C:\AINutriCare\Notebooks\Milestone_2\LSTM\attention_lstm.h5"
 SCALER_PATH = r"C:\AINutriCare\Data\Transformed\X_final.npy"
 FOOD_KB_FILE = "diet_kb.json"
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyD_lIMzf-pDJhSOZoEo8o5PtZUik6Yit6c")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL_ID = "gemini-2.5-flash"
 
 # Tesseract path
