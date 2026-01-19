@@ -1,0 +1,429 @@
+fdc_id,data_type,description,Protein (g),Total Fat (g),Carbohydrate (g),Energy (kcal),Fiber (g),Calcium (mg),Magnesium (mg),Potassium (mg),Sodium (mg),Sugars (g)
+321358,foundation_food,"Hummus, commercial",7.35,17.1,14.9,229.0,5.4,41.0,71.1,289.0,438.0,0.0
+321359,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",3.35,1.9,4.91,50.0,0.0,126.0,12.0,159.0,39.0,0.0
+321360,foundation_food,"Tomatoes, grape, raw",0.83,0.63,5.51,27.0,2.1,11.0,11.9,260.0,6.0,0.0
+321505,foundation_food,"Salt, table, iodized",0.0,0.0,0.0,0.0,0.0,50.0,0.0,2.0,38700.0,0.0
+321611,foundation_food,"Beans, snap, green, canned, regular pack, drained solids",1.04,0.39,4.11,21.0,0.0,36.0,12.7,97.0,282.0,0.0
+321900,foundation_food,"Broccoli, raw",2.57,0.34,6.29,32.0,2.4,46.0,21.0,303.0,36.0,0.0
+322228,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",3.38,0.95,5.19,43.0,0.0,126.0,12.0,159.0,39.0,0.0
+322559,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",3.43,0.08,4.89,34.0,0.0,132.0,12.5,167.0,41.0,0.0
+322892,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",3.28,3.2,4.67,60.0,0.0,123.0,11.9,150.0,38.0,0.0
+323121,foundation_food,"Frankfurter, beef, unheated",11.7,28.0,2.89,314.0,0.0,15.0,11.5,343.0,872.0,0.0
+323294,foundation_food,"Nuts, almonds, dry roasted, with salt added",20.4,57.8,16.2,620.0,11.0,273.0,258.0,684.0,256.0,0.0
+323444,foundation_food,"Cheese, ricotta, whole milk",7.81,11.0,6.86,157.0,0.0,224.0,19.7,230.0,105.0,0.0
+323505,foundation_food,"Kale, raw",2.92,1.49,4.42,35.0,4.1,254.0,32.7,348.0,53.0,0.0
+323604,foundation_food,"Egg, whole, raw, frozen, pasteurized",12.3,10.3,0.91,150.0,0.0,55.0,11.2,117.0,121.0,0.0
+323697,foundation_food,"Egg, white, raw, frozen, pasteurized",10.1,0.16,0.74,48.0,0.0,9.0,10.6,130.0,144.0,0.0
+323793,foundation_food,"Egg, white, dried",79.9,0.65,6.02,376.0,0.0,104.0,87.6,959.0,1250.0,0.0
+324038,foundation_food,"Sauce, salsa, ready-to-serve",1.44,0.19,6.74,29.0,1.8,28.0,15.2,258.0,656.0,0.0
+324157,foundation_food,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",13.3,28.7,3.37,328.0,0.0,35.0,19.7,263.0,866.0,0.0
+324317,foundation_food,"Onion rings, breaded, par fried, frozen, prepared, heated in oven",4.52,14.4,36.3,288.0,2.4,28.0,20.4,135.0,374.0,0.0
+324653,foundation_food,"Pickles, cucumber, dill or kosher dill",0.48,0.43,1.99,12.0,1.0,54.0,7.1,112.0,808.0,0.0
+324860,foundation_food,"Peanut butter, smooth style, with salt",22.5,51.1,22.3,597.0,4.8,49.0,169.0,564.0,429.0,0.0
+325036,foundation_food,"Cheese, parmesan, grated",29.6,28.0,12.4,421.0,0.0,884.0,34.9,184.0,1750.0,0.0
+325198,foundation_food,"Cheese, pasteurized process, American, vitamin D fortified",18.0,30.6,5.27,366.0,0.0,866.0,25.1,149.0,1660.0,0.0
+325287,foundation_food,"Grapefruit juice, white, canned or bottled, unsweetened",0.55,0.7,7.59,37.0,0.2,16.0,9.6,141.0,1.0,0.0
+325430,foundation_food,"Peaches, yellow, raw",0.91,0.27,10.1,42.0,1.5,4.0,8.0,122.0,13.0,0.0
+325524,foundation_food,"Seeds, sunflower seed kernels, dry roasted, with salt added",21.0,56.1,17.1,612.0,10.3,78.0,358.0,689.0,532.0,0.0
+325658,foundation_food,"Sausage, Italian, pork, mild, cooked, pan-fried",18.2,26.2,2.15,322.0,0.0,12.0,18.6,310.0,766.0,0.0
+325871,foundation_food,"Bread, white, commercially prepared",9.43,3.59,49.2,270.0,2.3,211.0,26.9,117.0,477.0,0.0
+325992,foundation_food,"Sausage, turkey, breakfast links, mild, raw",16.7,10.4,0.93,169.0,0.0,32.0,18.9,310.0,599.0,0.0
+326135,foundation_food,"Cheese, swiss",27.0,31.0,1.44,393.0,0.0,890.0,33.4,71.0,185.0,0.0
+326196,foundation_food,"Kale, frozen, cooked, boiled, drained, without salt",2.94,1.21,5.3,36.0,0.0,150.0,25.0,144.0,16.0,0.0
+326458,foundation_food,"Carrots, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",0.81,0.47,7.92,37.0,3.2,33.0,10.8,210.0,66.0,0.0
+326698,foundation_food,"Mustard, prepared, yellow",4.25,3.38,5.3,61.0,4.3,63.0,47.7,150.0,1100.0,0.0
+326905,foundation_food,"Figs, dried, uncooked",3.3,0.92,63.9,249.0,9.8,162.0,67.6,680.0,10.0,0.0
+327046,foundation_food,"Kiwifruit, green, raw",1.06,0.44,14.0,58.0,3.0,35.0,15.7,198.0,5.0,0.0
+327198,foundation_food,"Melons, cantaloupe, raw",0.82,0.18,8.16,34.0,0.8,9.0,13.0,157.0,30.0,0.0
+327357,foundation_food,"Nectarines, raw",1.06,0.28,9.18,39.0,1.5,2.0,8.8,131.0,13.0,0.0
+327501,foundation_food,"Oranges, raw, navels (Includes foods for USDA's Food Distribution Program)",0.91,0.15,11.8,47.0,2.0,43.0,10.7,166.0,9.0,0.0
+327699,foundation_food,"Strawberries, raw",0.64,0.22,7.63,31.0,1.8,12.0,11.8,89.0,10.0,0.0
+327923,foundation_food,"Lettuce, cos or romaine, raw",1.24,0.26,3.24,17.0,1.8,35.0,13.7,253.0,0.0,0.0
+328637,foundation_food,"Cheese, cheddar",23.3,34.0,2.44,408.0,0.0,707.0,26.8,77.0,654.0,0.0
+328841,foundation_food,"Cheese, cottage, lowfat, 2% milkfat",11.0,2.3,4.31,84.0,0.0,103.0,8.9,120.0,321.0,0.0
+329370,foundation_food,"Cheese, mozzarella, low moisture, part-skim",23.7,20.4,4.44,298.0,0.0,693.0,27.2,116.0,699.0,0.0
+329490,foundation_food,"Egg, whole, dried",48.1,39.8,1.87,575.0,0.0,220.0,44.6,468.0,485.0,0.0
+329596,foundation_food,"Egg, yolk, raw, frozen, pasteurized",15.6,25.1,0.59,296.0,0.0,119.0,11.2,102.0,66.0,0.0
+329716,foundation_food,"Egg, yolk, dried",34.2,55.5,1.07,654.0,0.0,270.0,26.0,231.0,149.0,0.0
+329830,foundation_food,"Cheese, dry white, queso seco",24.5,24.3,2.07,326.0,0.0,661.0,26.7,116.0,1810.0,0.0
+330137,foundation_food,"Yogurt, Greek, plain, nonfat",10.3,0.37,3.64,61.0,0.0,111.0,10.7,141.0,36.0,0.0
+330415,foundation_food,"Yogurt, Greek, strawberry, nonfat",8.06,0.15,12.2,83.0,0.6,97.0,10.4,133.0,32.0,0.0
+330458,foundation_food,"Oil, coconut",0.0,99.1,0.84,833.0,0.0,1.0,0.0,0.0,0.0,0.0
+330869,foundation_food,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",27.1,11.6,0.0,220.0,0.0,31.0,29.1,304.0,90.0,0.0
+331897,foundation_food,"Chicken, broilers or fryers, drumstick, meat only, cooked, braised",23.9,5.95,0.0,156.0,0.0,12.0,22.4,239.0,117.0,0.0
+331960,foundation_food,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",32.1,3.24,0.0,166.0,0.0,6.0,32.0,343.0,47.0,0.0
+332282,foundation_food,"Sauce, pasta, spaghetti/marinara, ready-to-serve",1.41,1.48,8.05,45.0,1.8,27.0,18.5,319.0,419.0,0.0
+332397,foundation_food,"Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",16.7,3.73,0.27,106.0,0.0,5.0,18.8,425.0,1040.0,0.0
+332597,foundation_food,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program)",0.38,0.16,15.1,57.0,3.1,8.0,5.7,87.0,7.0,0.0
+332791,foundation_food,"Olives, green, Manzanilla, stuffed with pimiento",1.15,12.9,4.96,130.0,4.0,121.0,12.4,43.0,1620.0,0.0
+332864,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried",19.3,28.1,2.63,346.0,0.0,37.0,30.1,435.0,983.0,0.0
+333008,foundation_food,"Cookies, oatmeal, soft, with raisins",5.79,14.3,69.6,430.0,3.3,29.0,32.4,245.0,314.0,0.0
+333281,foundation_food,"Tomatoes, canned, red, ripe, diced",0.84,0.5,3.32,18.0,0.0,30.0,9.8,198.0,125.0,0.0
+333374,foundation_food,"Fish, haddock, raw",16.3,0.45,0.0,74.0,0.0,11.0,21.1,286.0,213.0,0.0
+333476,foundation_food,"Fish, pollock, raw",12.3,0.41,0.0,56.0,0.0,15.0,16.1,160.0,333.0,0.0
+334194,foundation_food,"Fish, tuna, light, canned in water, drained solids",19.0,0.94,0.08,90.0,0.0,18.0,22.7,176.0,219.0,0.0
+334247,foundation_food,"Sugars, granulated",0.0,0.32,99.6,385.0,0.0,1.0,0.3,2.0,1.0,0.0
+334462,foundation_food,"Restaurant, Chinese, sweet and sour pork",8.88,13.6,25.5,260.0,1.0,46.0,13.0,152.0,304.0,0.0
+334536,foundation_food,"Restaurant, Chinese, fried rice, without meat",3.84,3.19,32.5,174.0,0.0,11.0,9.7,69.0,361.0,0.0
+334628,foundation_food,"Restaurant, Latino, tamale, pork",7.38,9.04,15.8,174.0,2.4,75.0,26.2,152.0,473.0,0.0
+334720,foundation_food,"Restaurant, Latino, pupusas con frijoles (pupusas, bean)",5.59,9.01,31.5,229.0,5.8,51.0,53.6,305.0,305.0,0.0
+334849,foundation_food,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw",22.8,6.39,0.0,155.0,0.0,15.0,11.3,282.0,45.0,0.0
+334897,foundation_food,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted",27.7,6.36,0.0,176.0,0.0,13.0,13.7,352.0,54.0,0.0
+334898,foundation_food,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",23.4,2.48,0.0,122.0,0.0,13.0,11.4,312.0,50.0,0.0
+334963,foundation_food,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",23.7,2.41,0.0,123.0,0.0,13.0,11.9,316.0,55.0,0.0
+335061,foundation_food,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled",27.3,11.4,0.0,219.0,0.0,19.0,20.0,283.0,67.0,0.0
+335109,foundation_food,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw",22.7,5.32,0.0,145.0,0.0,19.0,10.7,266.0,43.0,0.0
+335240,foundation_food,"Bread, whole-wheat, commercially prepared",12.3,3.55,43.1,254.0,6.0,163.0,76.6,250.0,450.0,0.0
+335245,foundation_food,"Beans, Dry, Dark Red Kidney (0% moisture)",25.9,1.31,0.0,0.0,4.3,98.0,164.0,1490.0,0.0,0.0
+335306,foundation_food,"Beans, Dry, Pink (0% moisture)",23.4,1.2,0.0,0.0,4.1,137.0,164.0,1490.0,0.0,0.0
+335419,foundation_food,"Beans, Dry, Navy (0% moisture)",24.1,1.51,0.0,0.0,4.3,229.0,180.0,1470.0,0.0,0.0
+335422,foundation_food,"Beans, Dry, Light Red Kidney (0% moisture)",25.0,1.03,0.0,0.0,4.5,103.0,158.0,1540.0,0.0,0.0
+335425,foundation_food,"Beans, Dry, Brown (0% moisture)",25.6,1.12,0.0,0.0,4.1,158.0,158.0,1580.0,0.0,0.0
+335428,foundation_food,"Beans, Dry, Flor de Mayo (0% moisture)",23.3,0.86,0.0,0.0,4.0,180.0,182.0,1490.0,0.0,0.0
+335433,foundation_food,"Beans, Dry, Carioca (0% moisture)",25.2,1.44,0.0,0.0,4.5,194.0,179.0,1390.0,0.0,0.0
+335442,foundation_food,"Beans, Dry, Tan (0% moisture)",26.8,1.14,0.0,0.0,4.4,178.0,198.0,1620.0,0.0,0.0
+335695,foundation_food,"Beans, Dry, Pinto (0% moisture)",23.7,1.24,0.0,0.0,4.1,161.0,170.0,1510.0,0.0,0.0
+335774,foundation_food,"Beans, Dry, Small Red (0% moisture)",23.5,1.28,0.0,0.0,4.1,149.0,167.0,1520.0,0.0,0.0
+335777,foundation_food,"Beans, Dry, Medium Red (0% moisture)",25.5,1.04,0.0,0.0,4.3,193.0,178.0,1490.0,0.0,0.0
+335782,foundation_food,"Beans, Dry, Cranberry (0% moisture)",24.4,1.23,0.0,0.0,4.3,152.0,166.0,1340.0,0.0,0.0
+335785,foundation_food,"Beans, Dry, Light Tan (0% moisture)",24.6,1.28,0.0,0.0,4.3,98.0,178.0,1230.0,0.0,0.0
+335912,foundation_food,"Beans, Dry, Black (0% moisture)",24.4,1.45,0.0,0.0,4.2,191.0,180.0,1540.0,0.0,0.0
+335927,foundation_food,"Beans, Dry, Small White (0% moisture)",24.5,1.32,0.0,0.0,4.3,236.0,182.0,1540.0,0.0,0.0
+335930,foundation_food,"Beans, Dry, Red (0% moisture)",21.3,1.16,0.0,0.0,4.0,148.0,152.0,1540.0,0.0,0.0
+336067,foundation_food,"Beans, Dry, Great Northern (0% moisture)",24.7,1.24,0.0,0.0,4.3,192.0,176.0,1520.0,0.0,0.0
+746758,foundation_food,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted",27.7,6.36,0.0,176.0,0.0,13.0,13.7,352.0,54.0,0.0
+746759,foundation_food,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw",22.8,6.39,0.0,155.0,0.0,15.0,11.3,282.0,45.0,0.0
+746760,foundation_food,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",23.4,2.48,0.0,122.0,0.0,13.0,11.4,312.0,50.0,0.0
+746761,foundation_food,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",23.7,2.41,0.0,123.0,0.0,13.0,11.9,316.0,55.0,0.0
+746762,foundation_food,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw",22.7,5.32,0.0,145.0,0.0,19.0,10.7,266.0,43.0,0.0
+746763,foundation_food,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled",27.3,11.4,0.0,219.0,0.0,19.0,20.0,283.0,67.0,0.0
+746764,foundation_food,"Carrots, frozen, unprepared",0.81,0.47,7.92,37.0,3.2,33.0,10.8,210.0,66.0,0.0
+746765,foundation_food,"Cheese, dry white, queso seco",24.5,24.3,2.07,326.0,0.0,661.0,26.7,116.0,1810.0,0.0
+746766,foundation_food,"Cheese, ricotta, whole milk",7.81,11.0,6.86,157.0,0.0,224.0,19.7,230.0,105.0,0.0
+746767,foundation_food,"Cheese, swiss",27.0,31.0,1.44,393.0,0.0,890.0,33.4,71.0,185.0,0.0
+746768,foundation_food,"Figs, dried, uncooked",3.3,0.92,63.9,249.0,9.8,162.0,67.6,680.0,10.0,0.0
+746769,foundation_food,"Lettuce, cos or romaine, raw",1.24,0.26,3.24,17.0,1.8,35.0,13.7,253.0,0.0,0.0
+746770,foundation_food,"Melons, cantaloupe, raw",0.82,0.18,8.16,34.0,0.8,9.0,13.0,157.0,30.0,0.0
+746771,foundation_food,"Oranges, raw, navels",0.91,0.15,11.8,47.0,2.0,43.0,10.7,166.0,9.0,0.0
+746772,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",3.38,0.95,5.18,43.0,0.0,126.0,12.0,159.0,39.0,0.0
+746773,foundation_food,"Pears, raw, bartlett",0.38,0.16,15.1,57.0,3.1,8.0,5.7,87.0,7.0,0.0
+746774,foundation_food,"Restaurant, Chinese, sweet and sour pork",8.88,13.6,25.5,260.0,1.0,46.0,13.0,152.0,304.0,0.0
+746775,foundation_food,"Salt, table, iodized",0.0,0.0,0.0,0.0,0.0,50.0,0.0,2.0,38700.0,0.0
+746776,foundation_food,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",3.43,0.08,4.92,34.0,0.0,132.0,12.5,167.0,41.0,0.0
+746777,foundation_food,"Sauce, salsa, ready-to-serve",1.44,0.19,6.74,29.0,1.8,28.0,15.2,258.0,656.0,0.0
+746778,foundation_food,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",3.36,1.9,4.9,50.0,0.0,126.0,12.0,159.0,39.0,0.0
+746779,foundation_food,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",13.3,28.7,3.37,328.0,0.0,35.0,19.7,263.0,866.0,0.0
+746780,foundation_food,"Sausage, Italian, pork, mild, cooked, pan-fried",18.2,26.2,2.15,322.0,0.0,12.0,18.6,310.0,766.0,0.0
+746781,foundation_food,"Sausage, pork, chorizo, link or ground, cooked, pan-fried",19.3,28.1,2.63,346.0,0.0,37.0,30.1,435.0,983.0,0.0
+746782,foundation_food,"Milk, whole, 3.25% milkfat, with added vitamin D",3.27,3.2,4.63,60.0,0.0,123.0,11.9,150.0,38.0,0.0
+746783,foundation_food,"Sausage, turkey, breakfast links, mild, raw",16.7,10.4,0.93,169.0,0.0,32.0,18.9,310.0,599.0,0.0
+746784,foundation_food,"Sugars, granulated",0.0,0.32,99.6,385.0,0.0,1.0,0.3,2.0,1.0,0.0
+746785,foundation_food,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",27.1,11.6,0.0,220.0,0.0,31.0,29.1,304.0,90.0,0.0
+746952,foundation_food,"Ham, sliced, restaurant",19.6,3.68,2.36,121.0,0.0,6.0,20.3,484.0,1030.0,0.0
+747429,foundation_food,"Cheese, American, restaurant",17.5,31.1,6.35,375.0,0.0,508.0,25.0,173.0,1600.0,0.0
+747430,foundation_food,"Beans, Dry, Medium Red (0% moisture)",25.5,1.04,0.0,0.0,4.3,193.0,178.0,1490.0,0.0,0.0
+747431,foundation_food,"Beans, Dry, Red (0% moisture)",21.3,1.16,0.0,0.0,4.0,148.0,152.0,1540.0,0.0,0.0
+747432,foundation_food,"Beans, Dry, Flor de Mayo (0% moisture)",23.3,0.86,0.0,0.0,4.0,180.0,182.0,1490.0,0.0,0.0
+747433,foundation_food,"Beans, Dry, Brown (0% moisture)",25.6,1.12,0.0,0.0,4.1,158.0,158.0,1580.0,0.0,0.0
+747434,foundation_food,"Beans, Dry, Tan (0% moisture)",26.8,1.14,0.0,0.0,4.4,178.0,198.0,1620.0,0.0,0.0
+747435,foundation_food,"Beans, Dry, Light Tan (0% moisture)",24.6,1.28,0.0,0.0,4.3,98.0,178.0,1230.0,0.0,0.0
+747436,foundation_food,"Beans, Dry, Carioca (0% moisture)",25.2,1.44,0.0,0.0,4.5,194.0,179.0,1390.0,0.0,0.0
+747437,foundation_food,"Beans, Dry, Cranberry (0% moisture)",24.4,1.23,0.0,0.0,4.3,152.0,166.0,1340.0,0.0,0.0
+747438,foundation_food,"Beans, Dry, Light Red Kidney (0% moisture)",25.0,1.03,0.0,0.0,4.5,103.0,158.0,1540.0,0.0,0.0
+747439,foundation_food,"Beans, Dry, Pink (0% moisture)",23.4,1.2,0.0,0.0,4.1,137.0,164.0,1490.0,0.0,0.0
+747440,foundation_food,"Beans, Dry, Dark Red Kidney (0% moisture)",25.9,1.31,0.0,0.0,4.3,98.0,164.0,1490.0,0.0,0.0
+747441,foundation_food,"Beans, Dry, Navy (0% moisture)",24.1,1.51,0.0,0.0,4.3,229.0,180.0,1470.0,0.0,0.0
+747442,foundation_food,"Beans, Dry, Small White (0% moisture)",24.5,1.32,0.0,0.0,4.3,236.0,182.0,1540.0,0.0,0.0
+747443,foundation_food,"Beans, Dry, Small Red (0% moisture)",23.5,1.28,0.0,0.0,4.1,149.0,167.0,1520.0,0.0,0.0
+747444,foundation_food,"Beans, Dry, Black (0% moisture)",24.4,1.45,0.0,0.0,4.2,191.0,180.0,1540.0,0.0,0.0
+747445,foundation_food,"Beans, Dry, Pinto (0% moisture)",23.7,1.24,0.0,0.0,4.1,161.0,170.0,1510.0,0.0,0.0
+747446,foundation_food,"Beans, Dry, Great Northern (0% moisture)",24.7,1.24,0.0,0.0,4.3,192.0,176.0,1520.0,0.0,0.0
+747447,foundation_food,"Broccoli, raw",2.57,0.34,6.27,31.0,2.4,46.0,21.0,303.0,36.0,0.0
+747448,foundation_food,"Strawberries, raw",0.64,0.22,7.63,31.0,1.8,12.0,11.8,89.0,10.0,0.0
+747693,foundation_food,"Ketchup, restaurant",1.11,0.55,26.8,117.0,0.0,14.0,13.5,249.0,949.0,0.0
+747997,foundation_food,"Eggs, Grade A, Large, egg white",10.7,0.0,2.36,55.0,0.0,0.0,0.0,0.0,0.0,0.0
+748236,foundation_food,"Eggs, Grade A, Large, egg yolk",16.2,28.8,1.02,334.0,0.0,0.0,0.0,0.0,0.0,0.0
+748967,foundation_food,"Eggs, Grade A, Large, egg whole",12.4,9.96,0.96,148.0,0.0,48.0,11.4,132.0,129.0,0.0
+749420,foundation_food,"Pork, cured, bacon, cooked, restaurant",40.9,36.5,2.1,500.0,0.0,13.0,36.5,557.0,1830.0,0.0
+789828,foundation_food,"Butter, stick, unsalted",0.0,81.5,0.0,0.0,0.0,14.0,1.6,19.0,10.0,0.0
+789890,foundation_food,"Flour, wheat, all-purpose, enriched, bleached",10.9,1.48,77.3,366.0,0.0,19.0,26.7,136.0,2.0,0.0
+789951,foundation_food,"Flour, wheat, all-purpose, enriched, unbleached",13.1,1.48,73.2,358.0,0.0,21.0,33.3,135.0,4.0,0.0
+790018,foundation_food,"Flour, wheat, all-purpose, unenriched, unbleached",12.0,1.7,74.6,362.0,3.0,22.0,36.1,150.0,2.0,0.0
+790085,foundation_food,"Flour, whole wheat, unenriched",15.1,2.73,71.2,370.0,10.6,38.0,136.0,376.0,3.0,0.0
+790146,foundation_food,"Flour, bread, white, enriched, unbleached",14.3,1.65,72.8,363.0,0.0,19.0,35.9,127.0,3.0,0.0
+790214,foundation_food,"Flour, rice, white, unenriched",6.94,1.3,79.8,359.0,0.5,6.0,22.9,75.0,5.0,0.0
+790276,foundation_food,"Flour, corn, yellow, fine meal, enriched",6.2,1.74,80.8,364.0,4.3,0.0,30.1,144.0,0.0,0.0
+790508,foundation_food,"Butter, stick, salted",0.0,82.2,0.0,0.0,0.0,21.0,1.6,23.0,524.0,0.0
+790577,foundation_food,"Onions, red, raw",0.94,0.1,9.93,44.0,2.2,17.0,11.4,197.0,1.0,0.0
+790646,foundation_food,"Onions, yellow, raw",0.83,0.05,8.61,38.0,1.9,15.0,9.0,182.0,1.0,0.0
+790774,foundation_food,"Bananas, overripe, raw",0.73,0.22,20.1,85.0,1.7,0.0,0.0,0.0,0.0,0.0
+790991,foundation_food,"Bananas, ripe and slightly ripe, raw",0.74,0.29,23.0,97.0,1.7,5.0,28.0,326.0,0.0,0.0
+1104647,foundation_food,"Garlic, raw",6.62,0.38,28.2,143.0,2.7,0.0,0.0,0.0,0.0,0.0
+1104705,foundation_food,"Flour, soy, defatted",51.1,3.33,32.9,366.0,0.0,338.0,313.0,2480.0,2.0,0.0
+1104766,foundation_food,"Flour, soy, full-fat",38.6,20.7,27.9,452.0,0.0,258.0,254.0,1860.0,2.0,0.0
+1104812,foundation_food,"Flour, rice, brown",7.19,3.85,75.5,365.25,0.0,10.0,124.0,265.0,1.0,0.0
+1104867,foundation_food,"Flour, rice, glutinous",6.69,1.16,80.1,358.0,0.0,10.0,21.2,80.0,6.0,0.0
+1104913,foundation_food,"Flour, pastry, unenriched, unbleached",8.75,1.64,77.2,358.0,0.0,17.0,22.4,142.0,1.0,0.0
+1104962,foundation_food,"Onions, white, raw",0.89,0.13,7.68,35.0,1.2,21.0,9.3,141.0,2.0,0.0
+1105073,foundation_food,"Bananas, overripe, raw",0.73,0.22,20.1,85.0,1.7,0.0,0.0,0.0,0.0,0.0
+1105314,foundation_food,"Bananas, ripe and slightly ripe, raw",0.74,0.29,23.0,97.0,1.7,5.0,28.0,326.0,0.0,0.0
+1105430,foundation_food,"Apples, red delicious, with skin, raw",0.19,0.21,14.8,62.0,2.0,5.0,4.7,95.0,0.0,0.0
+1105547,foundation_food,"Apples, honeycrisp, with skin, raw",0.1,0.1,14.7,60.0,1.7,4.0,4.2,98.0,0.0,0.0
+1105664,foundation_food,"Apples, granny smith, with skin, raw",0.27,0.14,14.2,59.0,2.5,5.0,5.1,116.0,0.0,0.0
+1105781,foundation_food,"Apples, gala, with skin, raw",0.13,0.15,14.8,61.0,2.1,7.0,5.0,106.0,0.0,0.0
+1105897,foundation_food,"Apples, fuji, with skin, raw",0.15,0.16,15.7,65.0,2.1,6.0,4.7,104.0,1.0,0.0
+1750337,foundation_food,"Soy milk, unsweetened, plain, shelf stable",3.546875,2.125,1.293125,0.0,0.0,101.0,21.54,158.2,34.28,0.0
+1750338,foundation_food,"Almond milk, unsweetened, plain, shelf stable",0.5546875,1.221,0.3371125,0.0,0.0,172.7,6.785,30.79,59.58,0.0
+1750339,foundation_food,"Apples, red delicious, with skin, raw",0.1875,0.2125,14.7817,0.0,2.043,4.656,4.695,95.31,0.0,12.22
+1750340,foundation_food,"Apples, fuji, with skin, raw",0.1484375,0.1625,15.6511625,0.0,2.075,5.975,4.67,103.8,1.013,13.33
+1750341,foundation_food,"Apples, gala, with skin, raw",0.1328125,0.15,14.7680875,0.0,2.109,6.639,4.947,105.9,0.2788,11.83
+1750342,foundation_food,"Apples, granny smith, with skin, raw",0.265625,0.1375,14.142975,0.0,2.514,5.483,5.055,115.9,0.0,10.65
+1750343,foundation_food,"Apples, honeycrisp, with skin, raw",0.1015625,0.1,14.6819375,0.0,1.721,3.874,4.151,98.04,0.1375,12.37
+1750344,foundation_food,"Mushroom, lion's mane",2.5,0.2563,7.5897,0.0,0.0,0.0,11.72,443.3,0.3363,0.0
+1750345,foundation_food,"Mushroom, oyster",2.89875,0.1875,6.94125,0.0,0.0,0.0,13.91,281.6,1.128,0.0
+1750346,foundation_food,"Mushrooms, shiitake",2.414375,0.195,8.170625,0.0,0.0,0.7663,14.06,243.0,0.9363,0.0
+1750347,foundation_food,"Mushrooms, white button",2.890625,0.3708,4.079375,0.0,0.0,5.465,10.16,373.0,6.443,0.0
+1750352,foundation_food,"Spinach, baby",2.851875,0.6188,2.406325,0.0,1.558,68.35,92.86,581.8,111.4,0.0
+1750353,foundation_food,"Spinach, mature",2.90625,0.6044,2.64135,0.0,1.588,66.64,92.96,459.7,106.6,0.0
+1750354,foundation_food,"Tomato, roma",0.695625,0.425,3.837475,0.0,0.9706,9.963,8.089,192.8,0.0,0.0
+1999626,foundation_food,"Mushroom, lion's mane",2.5,0.2563,7.5897,0.0,4.376,0.0,11.72,443.3,0.3363,0.0
+1999627,foundation_food,"Mushroom, oyster",2.89875,0.1875,6.94125,0.0,2.85,0.0,13.91,281.6,1.128,0.0
+1999628,foundation_food,"Mushrooms, shiitake",2.414375,0.195,8.170625,0.0,4.166,0.7663,14.06,243.0,0.9363,0.0
+1999629,foundation_food,"Mushrooms, white button",2.890625,0.3708,4.079375,0.0,1.717,5.465,10.16,373.0,6.443,0.0
+1999630,foundation_food,"Soy milk, unsweetened, plain, shelf stable",3.546875,2.125,1.293125,0.0,0.0,101.0,21.54,158.2,34.28,0.0
+1999631,foundation_food,"Almond milk, unsweetened, plain, shelf stable",0.5546875,1.221,0.3371125,0.0,0.0,172.7,6.785,30.79,59.58,0.0
+1999632,foundation_food,"Spinach, baby",2.851875,0.6188,2.406325,0.0,1.558,68.35,92.86,581.8,111.4,0.0
+1999633,foundation_food,"Spinach, mature",2.90625,0.6044,2.64135,0.0,1.588,66.64,92.96,459.7,106.6,0.0
+1999634,foundation_food,"Tomato, roma",0.695625,0.425,3.837475,0.0,0.9706,9.963,8.089,192.8,0.0,0.0
+2003586,foundation_food,"Flour, 00",11.4,1.52,74.4462,0.0,2.656,18.68,25.8,135.5,0.0,0.0
+2003587,foundation_food,"Flour, spelt, whole grain",14.475,2.543,70.723,0.0,9.339,30.04,123.8,349.8,0.0,0.0
+2003588,foundation_food,"Flour, semolina, coarse and semi-coarse",11.73125,1.597,73.82345,0.0,3.216,17.16,35.21,173.8,0.0,0.0
+2003589,foundation_food,"Flour, semolina, fine",13.33125,1.838,71.98575,0.0,3.683,19.76,46.28,207.8,0.4263,0.0
+2003590,foundation_food,"Apple juice, with added vitamin C, from concentrate, shelf stable",0.0859375,0.2863,11.3639625,0.0,0.0,7.099,4.861,95.87,4.872,0.0
+2003591,foundation_food,"Orange juice, no pulp, not fortified, from concentrate, refrigerated",0.734375,0.325,10.340625,0.0,0.0,12.81,10.64,179.5,5.231,0.0
+2003592,foundation_food,"Grape juice, purple, with added vitamin C, from concentrate, shelf stable",0.2578125,0.2875,15.6227875,0.0,0.0,9.741,7.873,49.78,4.019,0.0
+2003593,foundation_food,"Grape juice, white, with added vitamin C, from concentrate, shelf stable",0.09375,0.265,15.84375,0.0,0.0,7.318,4.274,49.01,7.188,0.0
+2003594,foundation_food,"Cranberry juice, not fortified, from concentrate, shelf stable",0.0,0.3375,7.26375,0.0,0.0,6.641,4.381,70.58,6.341,0.0
+2003595,foundation_food,"Grapefruit juice, red, not fortified, not from concentrate, refrigerated",0.5703125,0.2669,9.1021875,0.0,0.0,8.879,7.748,128.3,1.031,0.0
+2003596,foundation_food,"Tomato juice, with added ingredients, from concentrate, shelf stable",0.859375,0.2875,4.320625,0.0,0.0,9.744,10.43,197.6,235.6,0.0
+2003597,foundation_food,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",0.8125,0.3563,10.0124,0.0,0.0,9.288,10.26,182.8,0.075,0.0
+2003598,foundation_food,"Mushroom, portabella",2.75,0.3117,4.6583,0.0,1.879,3.235,9.037,349.3,5.312,0.0
+2003599,foundation_food,"Mushroom, king oyster",2.40625,0.3075,8.50065,0.0,3.009,0.0,13.51,294.5,0.7713,0.0
+2003600,foundation_food,"Mushroom, enoki",2.416875,0.245,8.141425,0.0,2.945,1.432,12.84,402.3,0.4167,0.0
+2003601,foundation_food,"Mushroom, crimini",3.09375,0.1967,4.01455,0.0,1.781,4.105,10.25,380.3,4.572,0.0
+2003602,foundation_food,"Mushroom, maitake",2.203125,0.265,6.604375,0.0,3.071,0.0,11.04,260.0,0.345,0.0
+2003603,foundation_food,"Mushroom, beech",2.18,0.4494,6.7593,0.0,3.139,0.4325,10.49,375.9,0.8913,0.0
+2003604,foundation_food,"Mushroom, pioppini",3.5,0.24,5.7637,0.0,2.753,0.0,15.99,392.4,0.0,0.0
+2257044,foundation_food,"Soy milk, sweetened, plain, refrigerated",2.776875,1.957,2.996125,0.0,0.0,154.8,17.46,117.9,39.44,0.0
+2257045,foundation_food,"Almond milk, unsweetened, plain, refrigerated",0.65625,1.558,0.67075,0.0,0.0,157.5,8.249,49.27,59.22,0.0
+2257046,foundation_food,"Oat milk, unsweetened, plain, refrigerated",0.796875,2.749,5.100325,0.0,0.0,148.5,5.909,148.4,41.98,0.0
+2258586,foundation_food,"Carrots, mature, raw",0.94125,0.3506,10.26755,0.0,3.095,30.48,12.45,279.6,86.65,0.0
+2258587,foundation_food,"Carrots, baby, raw",0.805,0.1375,9.0787,0.0,2.694,42.23,11.06,237.3,62.66,0.0
+2258588,foundation_food,"Peppers, bell, green, raw",0.715,0.1063,4.7781,0.0,0.9419,7.496,9.004,163.1,0.0,0.0
+2258589,foundation_food,"Peppers, bell, yellow, raw",0.819375,0.1211,6.601725,0.0,1.071,6.686,10.34,197.3,0.0,0.0
+2258590,foundation_food,"Peppers, bell, red, raw",0.895625,0.1256,6.653175,0.0,1.158,6.361,10.98,212.7,0.0,0.0
+2258591,foundation_food,"Peppers, bell, orange, raw",0.881875,0.1556,6.703125,0.0,0.9674,4.899,10.43,200.8,0.0,0.0
+2259792,foundation_food,"Buttermilk, low fat",3.464978,1.081,4.811522,0.0,0.0,120.1,11.03,158.0,92.49,0.0
+2259793,foundation_food,"Yogurt, plain, whole milk",3.824172,4.484,5.574928,0.0,0.0,126.8,11.45,164.1,41.78,0.0
+2259794,foundation_food,"Yogurt, Greek, plain, whole milk",8.77888,4.394,4.75402,0.0,0.0,110.9,10.7,146.9,33.76,0.0
+2259795,foundation_food,"Cheese, parmesan, grated, refrigerated",30.13912,29.5,4.33188,0.0,0.0,950.4,35.37,73.95,1046.0,0.0
+2259796,foundation_food,"Cheese, feta, whole milk, crumbled",19.70782,19.08,5.58318,0.0,0.0,371.1,17.69,105.3,1034.0,0.0
+2261420,foundation_food,"Flour, almond",26.24375,50.23,16.24925,0.0,9.266,232.3,251.1,666.8,0.8944,0.0
+2261421,foundation_food,"Flour, oat, whole grain",13.16875,6.309,69.91725,0.0,10.5,42.81,125.3,373.1,3.619,0.0
+2261422,foundation_food,"Flour, potato",8.1125,0.9513,79.9422,0.0,5.401,44.12,73.65,1269.0,47.66,0.0
+2262072,foundation_food,"Peanut butter, creamy",23.99124,49.43,22.70376,0.0,6.323,49.85,192.6,654.0,220.7,0.0
+2262073,foundation_food,"Sesame butter, creamy",19.7054,62.4,14.179,0.0,8.372,115.8,356.8,407.7,63.63,0.0
+2262074,foundation_food,"Almond butter, creamy",20.78734,53.04,21.23666,0.0,9.718,263.8,267.8,745.4,0.9963,0.0
+2262075,foundation_food,"Flaxseed, ground",18.0359,37.28,34.3551,0.0,23.13,229.9,372.1,793.4,36.74,0.0
+2263887,foundation_food,"Strawberries, raw",0.640625,0.22,7.964375,0.0,0.0,16.9,12.52,160.7,0.0,0.0
+2263888,foundation_food,"Raspberries, raw",1.008125,0.1875,12.904375,0.0,0.0,16.41,19.15,155.8,0.0,0.0
+2263889,foundation_food,"Blueberries, raw",0.703125,0.3063,14.571775,0.0,0.0,11.69,6.179,85.64,0.0,0.0
+2263890,foundation_food,"Grapes, red, seedless, raw",0.914375,0.1638,20.196825,0.0,0.0,10.17,8.556,229.4,6.999,0.0
+2263891,foundation_food,"Grapes, green, seedless, raw",0.89875,0.2325,18.60375,0.0,0.0,9.897,7.118,218.1,3.171,0.0
+2263892,foundation_food,"Applesauce, unsweetened, with added vitamin C",0.2734375,0.1625,12.2615625,0.0,0.0,3.821,3.938,107.7,0.5038,0.0
+2346384,foundation_food,"Cottage cheese, full fat, large or small curd",11.62436,4.225,4.59964,0.0,0.0,88.27,9.189,123.6,349.8,0.0
+2346385,foundation_food,"Cream cheese, full fat, block",5.78985,33.49,4.55615,0.0,0.0,97.11,8.914,124.8,367.8,0.0
+2346386,foundation_food,"Cream, heavy",2.017994,35.56,3.799506,0.0,0.0,61.21,5.974,96.94,20.61,0.0
+2346387,foundation_food,"Cream, sour, full fat",3.070694,17.99,5.555506,0.0,0.0,107.2,10.11,153.8,50.04,0.0
+2346388,foundation_food,"Lettuce, iceberg, raw",0.7425,0.07375,3.36875,0.0,0.0,14.24,6.311,139.3,16.11,0.0
+2346389,foundation_food,"Lettuce, romaine, green, raw",0.976875,0.07125,4.055575,0.0,0.0,27.56,12.05,260.4,23.0,0.0
+2346390,foundation_food,"Lettuce, leaf, red, raw",0.883125,0.1063,3.260575,0.0,0.0,42.59,12.4,321.4,24.89,0.0
+2346391,foundation_food,"Lettuce, leaf, green, raw",1.09375,0.1563,4.06615,0.0,0.0,39.84,12.77,277.1,28.88,0.0
+2346392,foundation_food,"Nuts, pine nuts, raw",15.7039,61.27,18.5921,0.0,3.941,8.736,205.9,654.8,0.0,0.0
+2346393,foundation_food,"Nuts, almonds, whole, raw",21.45038,51.09,20.03462,0.0,10.78,253.6,257.6,732.8,0.0,0.0
+2346394,foundation_food,"Nuts, walnuts, English, halves, raw",14.5644,69.74,10.9096,0.0,5.21,88.26,142.4,423.5,0.0,0.0
+2346395,foundation_food,"Nuts, pecans, halves, raw",9.9587,73.28,12.6993,0.0,5.793,54.83,102.9,360.3,0.0,0.0
+2346396,foundation_food,"Oats, whole grain, rolled, old fashioned",13.49645,5.89,68.65755,0.0,0.0,45.53,126.3,350.1,0.6675,0.0
+2346397,foundation_food,"Oats, whole grain, steel cut",12.51118,5.8,69.75082,0.0,0.0,51.34,128.6,375.9,0.3113,0.0
+2346398,foundation_food,"Pineapple, raw",0.4609375,0.2113,14.0914625,0.0,0.9346,12.5,13.38,137.1,0.0,0.0
+2346399,foundation_food,"Cherries, sweet, dark red, raw",1.039375,0.1925,16.163125,0.0,0.0,12.26,12.11,229.6,0.0,0.0
+2346400,foundation_food,"Beans, snap, green, raw",1.96875,0.275,7.41245,0.0,3.011,40.05,28.21,290.4,0.0,0.0
+2346401,foundation_food,"Potatoes, russet, without skin, raw",2.27375,0.36,17.77125,0.0,0.0,7.801,25.64,450.1,2.743,0.0
+2346402,foundation_food,"Potatoes, red, without skin, raw",2.0625,0.2475,16.27,0.0,0.0,5.128,23.56,472.0,2.856,0.0
+2346403,foundation_food,"Potatoes, gold, without skin, raw",1.8125,0.2638,15.9624,0.0,0.0,5.943,22.3,445.8,2.238,0.0
+2346404,foundation_food,"Sweet potatoes, orange flesh, without skin, raw",1.578125,0.375,17.327875,0.0,0.0,22.33,19.14,486.4,0.0,0.0
+2346405,foundation_food,"Celery, raw",0.4921875,0.1625,3.3165125,0.0,0.0,46.28,10.93,265.2,97.21,0.0
+2346406,foundation_food,"Cucumber, with peel, raw",0.625,0.1775,2.9525,0.0,0.0,16.34,10.11,169.6,1.515,0.0
+2346407,foundation_food,"Cabbage, green, raw",0.96125,0.2275,6.38375,0.0,0.0,41.84,13.86,207.1,16.1,0.0
+2346408,foundation_food,"Cabbage, red, raw",1.2425,0.2138,6.7899,0.0,0.0,30.99,13.3,269.1,11.72,0.0
+2346409,foundation_food,"Strawberries, raw",0.640625,0.22,7.964375,0.0,0.0,16.9,12.52,160.7,0.0,0.0
+2346410,foundation_food,"Raspberries, raw",1.008125,0.1875,12.904375,0.0,0.0,16.41,19.15,155.8,0.0,0.0
+2346411,foundation_food,"Blueberries, raw",0.703125,0.3063,14.571775,0.0,0.0,11.69,6.179,85.64,0.0,0.0
+2346412,foundation_food,"Grapes, red, seedless, raw",0.914375,0.1638,20.196825,0.0,0.0,10.17,8.556,229.4,6.999,0.0
+2346413,foundation_food,"Grapes, green, seedless, raw",0.89875,0.2325,18.60375,0.0,0.0,9.897,7.118,218.1,3.171,0.0
+2346414,foundation_food,"Applesauce, unsweetened, with added vitamin C",0.2734375,0.1625,12.2615625,0.0,0.0,3.821,3.938,107.7,0.5038,0.0
+2512371,foundation_food,"Flour, amaranth",13.2093,6.236,68.7787,0.0,7.209,135.2,232.7,395.8,0.0,0.0
+2512372,foundation_food,"Flour, quinoa",11.92235,6.601,69.52465,0.0,6.295,37.56,163.8,550.9,6.321,0.0
+2512373,foundation_food,"Flour, sorghum",8.27277,3.586,77.39123,0.0,6.019,11.41,116.4,335.1,0.0,0.0
+2512374,foundation_food,"Flour, buckwheat",8.88492,2.484,75.01808,0.0,10.35,30.55,167.4,378.1,0.0,0.0
+2512375,foundation_food,"Flour, rye",8.3952,1.908,77.1618,0.0,13.68,32.24,95.39,434.0,0.0,0.0
+2512376,foundation_food,"Flour, barley",8.72168,2.45,77.39832,0.0,12.79,35.56,88.04,366.6,20.33,0.0
+2512377,foundation_food,"Flour, cassava",0.918225,0.4938,87.312975,0.0,4.834,74.55,33.56,197.6,13.08,0.0
+2512378,foundation_food,"Buckwheat, whole grain",11.06534,3.039,71.13066,0.0,4.046,13.64,203.0,414.5,0.0,0.0
+2512379,foundation_food,"Millet, whole grain",10.02177,4.194,74.44623,0.0,2.619,9.105,105.5,214.1,0.0,0.0
+2512380,foundation_food,"Rice, brown, long grain, unenriched, raw",7.25305,3.306,76.68795,0.0,3.021,8.058,115.0,250.1,0.0,0.0
+2512381,foundation_food,"Rice, white, long grain, unenriched, raw",7.03885,1.033,80.31315,0.0,0.1488,4.46,26.53,82.26,0.4625,0.0
+2514743,foundation_food,"Beef, ground, 90% lean meat / 10% fat, raw",18.15625,12.85,0.0,0.0,0.0,7.135,16.49,281.4,61.64,0.0
+2514744,foundation_food,"Beef, ground, 80% lean meat / 20% fat, raw",17.53125,19.44,0.0,0.0,0.0,6.889,16.41,273.3,54.94,0.0
+2514745,foundation_food,"Pork, ground, raw",17.80625,17.49,0.0,0.0,0.0,5.857,19.03,317.7,53.63,0.0
+2514746,foundation_food,"Chicken, ground, with additives, raw",17.9125,7.161,0.0,0.0,0.0,5.819,20.51,301.7,62.95,0.0
+2514747,foundation_food,"Turkey, ground, 93% lean/ 7% fat, raw",17.34375,9.591,0.0,0.0,0.0,23.63,17.3,246.3,80.18,0.0
+2515373,foundation_food,"Nuts, brazilnuts, raw",15.03684,57.43,21.64216,0.0,5.984,167.8,351.3,592.5,0.0,0.0
+2515374,foundation_food,"Nuts, cashew nuts, raw",17.4423,38.86,36.2887,0.0,4.104,41.95,250.6,638.3,4.759,0.0
+2515375,foundation_food,"Nuts, hazelnuts or filberts, raw",13.4938,53.49,26.5012,0.0,8.41,134.7,155.8,635.9,0.0,0.0
+2515376,foundation_food,"Peanuts, raw",23.205,43.28,26.498,0.0,8.014,49.13,179.7,635.6,1.493,0.0
+2515377,foundation_food,"Flour, chestnut",5.28675,4.636,80.45025,0.0,8.711,55.81,68.75,1032.0,0.0,0.0
+2515378,foundation_food,"Nuts, macadamia nuts, raw",7.7857,64.93,24.0943,0.0,7.563,52.71,106.8,372.6,0.0,0.0
+2515379,foundation_food,"Nuts, pistachio nuts, raw",20.5057,45.02,27.6943,0.0,6.969,117.4,109.7,947.0,0.0,0.0
+2515380,foundation_food,"Seeds, pumpkin seeds (pepitas), raw",29.9079,40.03,18.6751,0.0,5.079,37.38,499.7,691.2,0.0,0.0
+2515381,foundation_food,"Seeds, sunflower seed, kernel, raw",18.8733,48.44,24.5007,0.0,7.215,115.6,301.9,656.8,0.0,0.0
+2515382,foundation_food,"Flour, coconut",16.1385,15.28,58.9025,0.0,34.24,35.98,247.7,2088.0,46.94,0.0
+2644281,foundation_food,"Beans, cannellini, dry",21.5625,2.199,59.7955,0.0,0.0,142.9,153.6,1424.0,0.0,0.0
+2644282,foundation_food,"Chickpeas, (garbanzo beans, bengal gram), dry",21.275,6.274,60.358,0.0,0.0,111.1,134.8,1074.0,8.779,0.0
+2644283,foundation_food,"Lentils, dry",23.56875,1.925,62.17125,0.0,0.0,61.85,106.7,948.9,0.0,0.0
+2644284,foundation_food,"Blackeye pea, dry",21.225,2.419,61.836,0.0,0.0,71.4,183.9,1243.0,3.458,0.0
+2644285,foundation_food,"Beans, black, canned, sodium added, drained and rinsed",6.9125,1.273,19.8135,0.0,0.0,43.31,32.54,253.1,217.9,0.0
+2644286,foundation_food,"Beans, navy, canned, sodium added, drained and rinsed",6.56875,1.398,19.98325,0.0,0.0,63.91,29.56,183.7,190.1,0.0
+2644287,foundation_food,"Beans, cannellini, canned, sodium added, drained and rinsed",7.4125,1.169,18.8185,0.0,0.0,69.19,29.29,202.6,164.0,0.0
+2644288,foundation_food,"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",7.01875,3.096,20.32025,0.0,0.0,40.48,28.41,136.8,201.7,0.0
+2644289,foundation_food,"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",7.8,1.256,21.03,0.0,0.0,56.94,29.31,226.9,172.3,0.0
+2644290,foundation_food,"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",7.30625,1.299,21.44675,0.0,0.0,60.25,25.49,209.4,158.5,0.0
+2644291,foundation_food,"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",4.734375,1.153,12.707625,0.0,0.0,28.21,21.91,109.2,207.4,0.0
+2644292,foundation_food,"Beans, pinto, canned, sodium added, drained and rinsed",6.69375,1.266,19.60025,0.0,0.0,55.23,27.49,209.6,201.6,0.0
+2644293,foundation_food,"Blackeye pea, canned, sodium added, drained and rinsed",6.925,1.296,19.1659,0.0,0.0,27.78,27.26,138.1,226.7,0.0
+2644294,foundation_food,"Beans, great northern, canned, sodium added, drained and rinsed",7.03125,1.266,19.32875,0.0,0.0,67.16,29.3,213.1,223.1,0.0
+2646168,foundation_food,"Pork, loin, boneless, raw",21.11875,9.469,0.0,0.0,0.0,4.111,21.96,361.2,40.2,0.0
+2646169,foundation_food,"Pork, loin, tenderloin, boneless, raw",21.58125,3.899,0.0,0.0,0.0,4.528,24.66,397.4,41.39,0.0
+2646170,foundation_food,"Chicken, breast, boneless, skinless, raw",22.525,1.934,0.0,0.0,0.0,3.939,26.2,330.1,65.75,0.0
+2646171,foundation_food,"Chicken, thigh, boneless, skinless, raw",18.6125,7.916,0.0,0.0,0.0,5.65,21.8,271.8,62.33,0.0
+2646172,foundation_food,"Beef, ribeye, steak, boneless, choice, raw",18.74375,20.04,0.0,0.0,0.0,4.173,16.68,288.0,42.54,0.0
+2646173,foundation_food,"Beef, round, top round, boneless, choice, raw",21.475,5.703,0.852,0.0,0.0,4.07,22.08,351.5,45.54,0.0
+2646174,foundation_food,"Beef, chuck, roast, boneless, choice, raw",18.4,17.8,0.0,0.0,0.0,4.576,16.99,281.1,48.44,0.0
+2646175,foundation_food,"Beef, flank, steak, boneless, choice, raw",20.13125,9.399,0.0,0.0,0.0,3.836,18.86,331.8,51.3,0.0
+2647437,foundation_food,"Yogurt, plain, nonfat",4.22675,0.0875,8.07675,0.0,0.0,167.4,15.21,210.5,51.48,0.0
+2647438,foundation_food,"Cheese, monterey jack, solid",22.6171,32.63,1.8979,0.0,0.0,714.6,29.6,82.94,662.2,0.0
+2647439,foundation_food,"Cheese, pasteurized process cheese food or product, American, singles",15.5672,23.86,8.1898,0.0,0.0,1498.0,34.6,211.8,1420.0,0.0
+2647440,foundation_food,"Cheese, provolone, sliced",23.45288,28.13,2.45312,0.0,0.0,748.8,29.5,94.84,600.9,0.0
+2647441,foundation_food,"Cheese, oaxaca, solid",22.14498,22.1,2.40202,0.0,0.0,532.3,21.58,80.73,734.2,0.0
+2647442,foundation_food,"Cheese, queso fresco, solid",18.8848,23.36,2.9572,0.0,0.0,601.8,27.64,126.4,626.5,0.0
+2647443,foundation_food,"Cheese, cotija, solid",23.83568,27.24,2.72432,0.0,0.0,699.6,29.9,116.7,1625.0,0.0
+2684440,foundation_food,"Fish, salmon, sockeye, wild caught, raw",22.3,4.936,0.0,0.0,0.0,14.84,26.15,329.7,53.3,0.0
+2684441,foundation_food,"Fish, salmon, Atlantic, farm raised, raw",20.31875,13.11,0.0,0.0,0.0,9.423,25.39,378.2,49.49,0.0
+2684442,foundation_food,"Fish, tilapia, farm raised, raw",19.0,2.479,0.0,0.0,0.0,8.628,24.28,342.4,93.66,0.0
+2684443,foundation_food,"Crustaceans, shrimp, farm raised, raw",15.56875,0.8013,0.48495,0.0,0.0,64.63,22.53,145.9,474.9,0.0
+2684444,foundation_food,"Fish, cod, Atlantic, wild caught, raw",16.06875,0.6675,0.0,0.0,0.0,6.59,17.98,245.1,298.8,0.0
+2684445,foundation_food,"Fish, catfish, farm raised, raw",16.46875,7.308,0.0,0.0,0.0,7.796,20.63,292.3,60.51,0.0
+2684446,foundation_food,"Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated",18.65,0.8075,0.0,0.0,0.0,110.9,43.08,234.8,331.3,0.0
+2685568,foundation_food,"Squash, summer, green, zucchini, includes skin, raw",0.984375,0.205,3.27,0.0,0.7525,20.85,15.29,225.8,0.0,0.0
+2685569,foundation_food,"Squash, summer, yellow, includes skin, raw",0.890625,0.135,4.39,0.0,0.9563,22.69,16.84,220.5,0.0,0.0
+2685570,foundation_food,"Squash, winter, butternut, raw",1.14875,0.1675,10.50745,0.0,1.959,21.74,14.95,329.1,0.0,0.0
+2685571,foundation_food,"Squash, winter, acorn, raw",1.25,0.1825,10.48,0.0,2.635,24.82,23.75,332.1,0.0,0.0
+2685572,foundation_food,"Cabbage, bok choy, raw",1.02375,0.2338,3.51495,0.0,1.259,61.93,13.64,227.8,14.27,0.0
+2685573,foundation_food,"Cauliflower, raw",1.640625,0.2375,4.723075,0.0,1.948,20.35,14.2,274.4,20.0,0.0
+2685574,foundation_food,"Collards, raw",2.96875,0.77,7.02225,0.0,3.816,276.4,49.51,409.8,18.41,0.0
+2685575,foundation_food,"Brussels sprouts, raw",3.984375,0.565,9.615625,0.0,4.785,38.64,25.0,476.8,25.74,0.0
+2685576,foundation_food,"Beets, raw",1.6875,0.3025,8.787,0.0,3.119,13.82,21.01,341.5,111.6,0.0
+2685577,foundation_food,"Eggplant, raw",0.851875,0.12,5.399325,0.0,2.448,11.06,13.54,222.1,0.4425,0.0
+2685578,foundation_food,"Tomatoes, whole, canned, solids and liquids, with salt added",0.8675,0.2063,4.2874,0.0,0.8725,19.83,10.75,202.9,111.5,0.0
+2685579,foundation_food,"Tomato, sauce, canned, with salt added",1.351875,0.3825,6.331625,0.0,1.636,17.1,18.73,355.5,416.9,0.0
+2685580,foundation_food,"Tomato, paste, canned, without salt added",4.234375,0.7325,20.188125,0.0,4.704,36.85,49.61,971.6,61.15,0.0
+2685581,foundation_food,"Tomatoes, crushed, canned",1.4375,0.3975,7.137,0.0,1.944,19.2,18.64,345.6,139.8,0.0
+2685582,foundation_food,"Tomato, puree, canned",1.578125,0.265,8.036875,0.0,1.971,17.64,19.33,416.4,29.36,0.0
+2710815,foundation_food,"Apricot, with skin, raw",0.96125,0.405,10.23875,0.0,1.51,11.59,8.883,231.4,0.0,0.0
+2710816,foundation_food,"Melons, honeydew, raw",0.53125,0.2163,8.14995,0.0,0.0,6.579,9.504,208.9,21.15,0.0
+2710817,foundation_food,"Plantains, ripe, raw",1.15625,0.8933,30.95215,0.0,2.125,3.825,33.93,395.6,0.0,0.0
+2710818,foundation_food,"Plantains, underripe, raw",1.229375,0.685,33.587325,0.0,2.53,4.832,29.47,406.3,0.0,0.0
+2710819,foundation_food,"Chia seeds, dry, raw",17.013,32.89,38.273,0.0,0.0,595.4,326.3,642.1,0.0,0.0
+2710820,foundation_food,"Bulgur, dry, raw",11.75625,2.421,75.88175,0.0,11.72,34.11,118.9,358.3,2.18,0.0
+2710821,foundation_food,"Wild rice, dry, raw",12.7875,1.704,75.6695,0.0,4.26,7.973,108.5,298.8,1.014,0.0
+2710822,foundation_food,"Arugula, baby, raw",1.64875,0.325,5.36825,0.0,2.28,203.7,42.65,406.8,86.93,0.0
+2710823,foundation_food,"Asparagus, green, raw",1.4375,0.2163,5.1012,0.0,1.883,20.58,13.78,277.5,2.46,0.0
+2710824,foundation_food,"Avocado, Hass, peeled, raw",1.8125,20.31,8.3235,0.0,0.0,14.46,32.8,576.4,0.0,0.0
+2710825,foundation_food,"Rice, black, unenriched, raw",7.56875,3.438,77.18825,0.0,4.179,14.4,113.4,255.6,0.0,0.0
+2710826,foundation_food,"Corn, sweet, yellow and white kernels,  fresh, raw",2.789375,1.626,14.689625,0.0,2.428,0.6563,25.76,237.0,0.0,0.0
+2710827,foundation_food,"Einkorn, grain, dry, raw",15.11719,3.811,68.65381,0.0,8.913,41.41,140.4,431.8,0.0,0.0
+2710828,foundation_food,"Farro, pearled, dry, raw",12.63944,3.103,72.13156,0.0,7.31,25.94,118.8,385.4,0.845,0.0
+2710829,foundation_food,"Fonio, grain, dry, raw",7.16875,1.693,81.30525,0.0,2.197,11.65,39.1,43.79,2.967,0.0
+2710830,foundation_food,"Khorasan, grain, dry, raw",14.75573,2.8,71.79427,0.0,10.52,24.08,130.1,450.5,3.936,0.0
+2710831,foundation_food,"Kiwifruit (kiwi), green, peeled, raw",1.008125,0.64,13.818075,0.0,2.129,24.38,14.79,301.5,2.275,0.0
+2710832,foundation_food,"Mandarin, seedless, peeled, raw",1.039375,0.4575,13.421825,0.0,1.328,43.96,12.59,167.2,0.0,0.0
+2710833,foundation_food,"Mango, Tommy Atkins, peeled, raw",0.5625,0.5725,15.265,0.0,1.753,12.4,10.26,165.0,0.0,0.0
+2710834,foundation_food,"Mango, Ataulfo, peeled, raw",0.6875,0.6813,17.3962,0.0,1.289,10.02,10.57,204.4,0.0,0.0
+2710835,foundation_food,"Corn flour, masa harina, white or yellow, dry, raw",7.5625,4.34,76.6895,0.0,7.038,111.6,93.3,276.6,2.733,0.0
+2710836,foundation_food,"Pear, Anjou, green, with skin, raw",0.3125,0.3713,14.7674,0.0,2.636,9.986,6.494,122.5,0.3975,0.0
+2710837,foundation_food,"Plum, black, with skin, raw",0.578125,0.2825,13.455575,0.0,1.346,4.031,6.615,186.3,0.0,0.0
+2710838,foundation_food,"Rice, red, unenriched, dry, raw",8.5625,3.44,76.1545,0.0,4.198,9.224,125.5,245.1,0.4375,0.0
+2710839,foundation_food,"Sorghum bran, white, unenriched, dry, raw",11.16875,9.259,68.69525,0.0,34.95,61.66,273.5,851.5,2.915,0.0
+2710840,foundation_food,"Sorghum flour, white, pearled, unenriched, dry, raw",10.2125,3.238,73.5065,0.0,3.299,7.894,107.0,273.9,0.0,0.0
+2710841,foundation_food,"Sorghum grain, white, pearled, unenriched, dry, raw",10.25,3.265,74.872,0.0,3.916,7.45,108.9,273.9,0.0,0.0
+2710842,foundation_food,"Sorghum, whole grain, white, dry, raw",10.08125,4.219,73.57375,0.0,8.274,14.93,136.0,367.1,0.3288,0.0
+2710843,foundation_food,"Plantains, overripe, raw",1.166875,0.99,29.191425,0.0,1.792,3.9,31.73,408.2,0.0,0.0
+2727566,foundation_food,"Chicken, drumstick, meat and skin, raw",18.35625,5.94,-0.47505,0.0,0.0,8.285,18.55,244.1,90.98,0.0
+2727567,foundation_food,"Chicken, thigh, meat and skin, raw",17.10625,13.35,-0.17255,0.0,0.0,5.726,18.51,246.0,63.55,0.0
+2727568,foundation_food,"Chicken, wing, meat and skin, raw",18.40625,10.64,-0.45875,0.0,0.0,13.55,16.53,194.0,84.14,0.0
+2727569,foundation_food,"Chicken, breast, meat and skin, raw",21.40625,4.777,-0.42825,0.0,0.0,6.898,25.4,332.5,48.07,0.0
+2727570,foundation_food,"Lamb, ground, raw",17.4625,18.64,-0.2508,0.0,0.0,6.575,17.48,272.1,53.45,0.0
+2727571,foundation_food,"Bison, ground, raw",19.88125,8.88,-0.14955,0.0,0.0,6.827,18.47,301.1,55.7,0.0
+2727572,foundation_food,"Beef, short loin (NY strip steak), raw",21.325,11.54,0.2212,0.0,0.0,5.043,19.5,323.0,43.09,0.0
+2727573,foundation_food,"Beef, tenderloin steak, raw",21.09375,6.456,0.18025,0.0,0.0,4.089,21.98,344.7,44.85,0.0
+2727574,foundation_food,"Beef, top sirloin steak, raw",21.975,5.708,0.218,0.0,0.0,3.701,22.08,349.4,42.85,0.0
+2727575,foundation_food,"Pork, chop, center cut, raw",22.8125,5.475,-0.5625,0.0,0.0,4.124,23.44,366.5,39.3,0.0
+2727576,foundation_food,"Pork, belly, with skin, raw",15.2,35.83,-0.705,0.0,0.0,4.205,12.18,207.9,49.7,0.0
+2727577,foundation_food,"Pawpaw, peeled, seeded, raw",1.151875,0.0,0.0,0.0,3.3,9.91,10.61,220.9,0.3514,0.0
+2727578,foundation_food,"Squash, pie pumpkin, peeled, seeded, raw",0.854375,0.0,0.0,0.0,2.3,16.36,12.8,472.1,0.3125,0.0
+2727579,foundation_food,"Squash, spaghetti, peeled, seeded, raw",0.791875,0.0,0.0,0.0,1.4,16.55,13.34,266.9,0.3125,0.0
+2727580,foundation_food,"Rutabaga, peeled, raw",0.8875,0.0,0.0,0.0,2.9,42.0,15.44,266.6,4.591,0.0
+2727581,foundation_food,"Blackberries, raw",1.52625,0.0,0.0,0.0,5.3,15.45,20.58,167.4,1.548,0.0
+2727582,foundation_food,"Tomatillos, dehusked, raw",1.064375,0.0,0.0,0.0,1.7,7.141,13.51,239.1,0.3113,0.0
+2727583,foundation_food,"Cabbage, napa, leaf, destemmed, raw",1.06375,0.0,0.0,0.0,1.2,35.05,11.26,234.6,12.65,0.0
+2727584,foundation_food,"Leeks, bulb and greens, root removed, raw",1.4675,0.0,0.0,0.0,3.0,51.41,15.68,319.0,17.66,0.0
+2727585,foundation_food,"Green onion, (scallion), bulb and greens, root removed, raw",0.66875,0.0,0.0,0.0,2.3,59.44,18.94,232.0,9.948,0.0
+2727586,foundation_food,"Shallots, bulb, peeled, root removed, raw",1.3775,0.0,0.0,0.0,2.2,26.06,15.1,251.5,3.636,0.0
+2727587,foundation_food,"Juice, prune, shelf-stable",0.422625,0.0,0.0,0.0,0.0,16.23,15.21,215.6,10.29,0.0
+2727588,foundation_food,"Juice, pomegranate, from concentrate, shelf-stable",0.0,0.0,0.0,0.0,0.0,11.03,6.863,165.6,4.038,0.0
+2727589,foundation_food,"Juice, tart cherry, from concentrate, shelf-stable",0.1465625,0.0,0.0,0.0,0.0,16.2,12.12,169.8,1.363,0.0
+2747652,foundation_food,"Anchovies, canned in olive oil, with salt, drained",26.9375,9.853,2.4095,0.0,0.0,239.8,227.6,297.8,5403.0,0.0
+2747653,foundation_food,"Beet greens, raw",1.609375,0.1438,4.658825,0.0,2.578,72.8,74.36,368.7,280.5,0.0
+2747654,foundation_food,"Cod, Pacific or Alaskan, frozen, wild caught",14.2,0.216,0.524,0.0,0.0,9.013,17.88,192.3,353.9,0.0
+2747655,foundation_food,"Fennel, bulb, raw",0.921875,0.14,5.486225,0.0,2.046,41.3,14.98,332.4,49.03,0.0
+2747656,foundation_food,"Halibut, frozen, wild caught",19.0625,0.5917,-0.0602,0.0,0.0,4.103,23.06,430.2,108.3,0.0
+2747657,foundation_food,"Lobster, tail only, frozen, wild caught",12.99375,0.3667,0.88555,0.0,0.0,71.64,39.04,212.6,508.8,0.0
+2747658,foundation_food,"Mahi mahi, frozen, wild caught",19.79375,0.3767,0.28655,0.0,0.0,6.003,28.02,407.9,51.93,0.0
+2747659,foundation_food,"Parsnips, raw",1.265625,0.5381,19.292275,0.0,5.351,44.16,22.0,492.6,0.4913,0.0
+2747660,foundation_food,"Peppers, banana or Hungarian wax, seeded, raw",0.723125,0.1314,4.966175,0.0,1.79,9.816,10.19,177.4,0.0,0.0
+2747661,foundation_food,"Peppers, jalapeno, seeded, raw",0.621125,0.1488,5.075675,0.0,1.725,10.1,8.946,166.9,0.0,0.0
+2747662,foundation_food,"Peppers, poblano, seeded, raw",1.425625,0.1906,5.143175,0.0,2.07,8.366,10.73,191.6,0.0,0.0
+2747663,foundation_food,"Peppers, serrano, seeded, raw",0.855625,0.1406,6.136275,0.0,2.521,12.86,12.68,224.5,0.0,0.0
+2747664,foundation_food,"Radicchio, raw",1.30875,0.1431,4.96125,0.0,2.114,30.91,12.95,334.6,8.076,0.0
+2747665,foundation_food,"Radishes, red, raw",0.65625,0.08313,4.05682,0.0,1.314,21.51,8.944,197.8,51.16,0.0
+2747666,foundation_food,"Scallops, bay, Patagonian, frozen, wild caught",16.3875,0.4192,2.2833,0.0,0.0,14.03,46.44,292.0,252.4,0.0
+2747667,foundation_food,"Scallops, sea, frozen, wild caught",13.5125,0.4933,1.9662,0.0,0.0,10.54,30.63,244.9,313.0,0.0
+2747668,foundation_food,"Sea bass, Chilean, frozen, wild caught",14.925,16.57,0.1392,0.0,0.0,6.822,16.64,236.4,109.4,0.0
+2747669,foundation_food,"Snapper, frozen, wild caught",20.6625,0.5692,0.4413,0.0,0.0,13.91,27.46,348.8,93.06,0.0
+2747670,foundation_food,"Snow crab, legs only, frozen  ",15.5375,0.2942,1.1063,0.0,0.0,97.8,58.37,192.9,728.5,0.0
+2747671,foundation_food,"Squid (calamari), frozen, tubes only",8.80625,0.5508,0.93215,0.0,0.0,10.56,10.52,9.483,271.9,0.0
+2747672,foundation_food,"Swordfish, frozen, wild caught",19.2375,8.123,0.4495,0.0,0.0,3.623,26.68,414.1,56.87,0.0
+2747673,foundation_food,"Tuna, ahi or yellowfin, frozen, wild caught",24.7,0.3875,-0.1045,0.0,0.0,3.193,35.48,420.2,94.37,0.0
+2747674,foundation_food,"Turnips, raw",0.953125,0.1188,7.274975,0.0,1.915,32.7,10.39,262.1,12.8,0.0
+2747675,foundation_food,"Watermelon, seedless, flesh only, raw",0.87125,0.0,0.0,0.0,0.0,7.861,11.45,117.3,0.0,0.0
+2747676,foundation_food,"Watermelon, seedless, rind only, raw",0.53125,0.9657,3.27075,0.0,1.535,16.93,9.673,272.5,3.763,0.0
