@@ -42,4 +42,4 @@ The system generates two primary structured documents:
 ---
 
 ## 🚀 How It Works
-The pipeline ingests a patient report, normalizes clinical features for the LSTM model, determines the patient's severity risk, and then prompts Gemini with these specific constraints to build a medically sound, culturally relevant diet roadmap.
+The pipeline ingests a patient report, normalizes clinical features for the LSTM model, determines the patient's severity risk, and then prompts Gemini with these specific constraints to build a medically sound,culturally relevant diet roadmap.
