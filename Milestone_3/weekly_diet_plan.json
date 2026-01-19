@@ -1,0 +1,1049 @@
+{
+    "days_generated": 7,
+    "diet_plans": {
+        "day_1": {
+            "breakfast": [
+                {
+                    "item": "Bajra Porridge (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Robusta, 150g)",
+                    "calories": 157.7,
+                    "protein": 1.8,
+                    "fat": 0.5,
+                    "carbs": 35.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Almonds (30g)",
+                    "calories": 173.7,
+                    "protein": 5.5,
+                    "fat": 17.5,
+                    "carbs": 0.9,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Agathi Leaves Sabzi (200g cooked)",
+                    "calories": 590.0,
+                    "protein": 16.0,
+                    "fat": 2.7,
+                    "carbs": 10.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Barley Roti (80g raw equivalent)",
+                    "calories": 264.8,
+                    "protein": 8.8,
+                    "fat": 1.0,
+                    "carbs": 49.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Ari Fish Curry (100g cooked)",
+                    "calories": 415.0,
+                    "protein": 22.0,
+                    "fat": 1.1,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Steamed Ash Gourd (200g cooked)",
+                    "calories": 146.0,
+                    "protein": 1.6,
+                    "fat": 0.3,
+                    "carbs": 5.7,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Apple (Big, 200g)",
+                    "calories": 210.3,
+                    "protein": 0.6,
+                    "fat": 1.3,
+                    "carbs": 26.2,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Dried Apricots (30g)",
+                    "calories": 132.1,
+                    "protein": 0.9,
+                    "fat": 0.2,
+                    "carbs": 21.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2365.9,
+                "protein": 61.5,
+                "fat": 23.4,
+                "carbs": 159.4
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_2": {
+            "breakfast": [
+                {
+                    "item": "Amaranth Seed Porridge (Black, 80g raw equivalent)",
+                    "calories": 298.0,
+                    "protein": 11.7,
+                    "fat": 4.6,
+                    "carbs": 48.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Poovam, 150g)",
+                    "calories": 177.3,
+                    "protein": 2.2,
+                    "fat": 0.5,
+                    "carbs": 35.1,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Basella Leaves Stir-fry (200g cooked)",
+                    "calories": 164.0,
+                    "protein": 3.1,
+                    "fat": 0.9,
+                    "carbs": 4.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Bajra Roti (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Aluva Fish Fry (100g cooked)",
+                    "calories": 434.0,
+                    "protein": 21.6,
+                    "fat": 1.8,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Steamed Bamboo Shoots (Tender, 200g cooked)",
+                    "calories": 136.0,
+                    "protein": 2.7,
+                    "fat": 0.7,
+                    "carbs": 3.3,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Avocado Fruit (100g)",
+                    "calories": 604.0,
+                    "protein": 3.0,
+                    "fat": 13.9,
+                    "carbs": 1.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Fresh Arecanut (50g)",
+                    "calories": 512.0,
+                    "protein": 1.4,
+                    "fat": 2.8,
+                    "carbs": 22.5,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2697.3,
+                "protein": 52.8,
+                "fat": 28.6,
+                "carbs": 164.1
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_3": {
+            "breakfast": [
+                {
+                    "item": "Barley Porridge (80g raw equivalent)",
+                    "calories": 264.8,
+                    "protein": 8.8,
+                    "fat": 1.0,
+                    "carbs": 49.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Robusta, 150g)",
+                    "calories": 157.7,
+                    "protein": 1.8,
+                    "fat": 0.5,
+                    "carbs": 35.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Dried Apricots (30g)",
+                    "calories": 132.1,
+                    "protein": 0.9,
+                    "fat": 0.2,
+                    "carbs": 21.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Amaranth Leaves (Red Mix) Sabzi (200g cooked)",
+                    "calories": 280.0,
+                    "protein": 7.9,
+                    "fat": 1.3,
+                    "carbs": 4.7,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Bajra Roti (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Anchovy Curry (100g cooked)",
+                    "calories": 367.0,
+                    "protein": 19.9,
+                    "fat": 0.8,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Steamed Ash Gourd (200g cooked)",
+                    "calories": 146.0,
+                    "protein": 1.6,
+                    "fat": 0.3,
+                    "carbs": 5.7,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Apple (Green, 200g)",
+                    "calories": 428.0,
+                    "protein": 0.9,
+                    "fat": 1.0,
+                    "carbs": 21.3,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Bael Fruit (150g)",
+                    "calories": 853.5,
+                    "protein": 3.9,
+                    "fat": 0.9,
+                    "carbs": 42.3,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2915.1,
+                "protein": 48.6,
+                "fat": 10.3,
+                "carbs": 229.6
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_4": {
+            "breakfast": [
+                {
+                    "item": "Bajra Porridge (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Apple (Small, 150g)",
+                    "calories": 400.5,
+                    "protein": 0.5,
+                    "fat": 0.8,
+                    "carbs": 20.9,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Almonds (30g)",
+                    "calories": 173.7,
+                    "protein": 5.5,
+                    "fat": 17.5,
+                    "carbs": 0.9,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Agathi Leaves Sabzi (200g cooked)",
+                    "calories": 590.0,
+                    "protein": 16.0,
+                    "fat": 2.7,
+                    "carbs": 10.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Barley Roti (80g raw equivalent)",
+                    "calories": 264.8,
+                    "protein": 8.8,
+                    "fat": 1.0,
+                    "carbs": 49.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Ari Fish Pan-fried (100g cooked)",
+                    "calories": 415.0,
+                    "protein": 22.0,
+                    "fat": 1.1,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Basella Leaves Stir-fry (150g cooked)",
+                    "calories": 123.0,
+                    "protein": 2.4,
+                    "fat": 0.7,
+                    "carbs": 3.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Banana (Montham, 150g)",
+                    "calories": 694.5,
+                    "protein": 1.9,
+                    "fat": 0.5,
+                    "carbs": 37.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Avocado Fruit (100g)",
+                    "calories": 604.0,
+                    "protein": 3.0,
+                    "fat": 13.9,
+                    "carbs": 1.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 3551.9,
+                "protein": 68.9,
+                "fat": 42.5,
+                "carbs": 172.8
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_5": {
+            "breakfast": [
+                {
+                    "item": "Amaranth Seed Porridge (Pale Brown, 80g raw equivalent)",
+                    "calories": 297.8,
+                    "protein": 10.6,
+                    "fat": 4.5,
+                    "carbs": 49.2,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Red, 150g)",
+                    "calories": 700.5,
+                    "protein": 1.9,
+                    "fat": 0.4,
+                    "carbs": 37.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Asafoetida seasoning (5g)",
+                    "calories": 6.9,
+                    "protein": 0.3,
+                    "fat": 0.1,
+                    "carbs": 3.6,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Bamboo Shoot Curry (Tender, 200g cooked)",
+                    "calories": 136.0,
+                    "protein": 2.7,
+                    "fat": 0.7,
+                    "carbs": 3.3,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Bajra Roti (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Aluva Fish Curry (100g cooked)",
+                    "calories": 434.0,
+                    "protein": 21.6,
+                    "fat": 1.8,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Amaranth Leaves (Green) Stew (200g cooked)",
+                    "calories": 256.0,
+                    "protein": 6.6,
+                    "fat": 1.3,
+                    "carbs": 4.6,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Apricot (Dried, 30g)",
+                    "calories": 132.1,
+                    "protein": 0.9,
+                    "fat": 0.2,
+                    "carbs": 21.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Apple (Small, Kashmir, 150g)",
+                    "calories": 403.5,
+                    "protein": 0.4,
+                    "fat": 0.9,
+                    "carbs": 21.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2636.8,
+                "protein": 53.8,
+                "fat": 14.2,
+                "carbs": 195.7
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_6": {
+            "breakfast": [
+                {
+                    "item": "Barley Porridge (80g raw equivalent)",
+                    "calories": 264.8,
+                    "protein": 8.8,
+                    "fat": 1.0,
+                    "carbs": 49.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Poovam, 150g)",
+                    "calories": 177.3,
+                    "protein": 2.2,
+                    "fat": 0.5,
+                    "carbs": 35.1,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Almonds (30g)",
+                    "calories": 173.7,
+                    "protein": 5.5,
+                    "fat": 17.5,
+                    "carbs": 0.9,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Amaranth Leaves (Red & Green Mix) Stir-fry (200g cooked)",
+                    "calories": 264.0,
+                    "protein": 6.2,
+                    "fat": 1.1,
+                    "carbs": 5.7,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Bajra Roti (80g raw equivalent)",
+                    "calories": 286.0,
+                    "protein": 8.8,
+                    "fat": 4.3,
+                    "carbs": 49.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Anchovy & Ash Gourd Curry (Anchovy 100g, Ash Gourd 200g)",
+                    "calories": 367.0,
+                    "protein": 19.9,
+                    "fat": 0.8,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Steamed Ash Gourd (200g cooked)",
+                    "calories": 146.0,
+                    "protein": 1.6,
+                    "fat": 0.3,
+                    "carbs": 5.7,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Bael Fruit (150g)",
+                    "calories": 853.5,
+                    "protein": 3.9,
+                    "fat": 0.9,
+                    "carbs": 42.3,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Arecanut (Dried, Brown, 30g)",
+                    "calories": 440.1,
+                    "protein": 1.7,
+                    "fat": 1.3,
+                    "carbs": 21.1,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2970.4,
+                "protein": 52.6,
+                "fat": 26.2,
+                "carbs": 164.2
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        },
+        "day_7": {
+            "breakfast": [
+                {
+                    "item": "Amaranth Seed Porridge (Black, 80g raw equivalent)",
+                    "calories": 298.0,
+                    "protein": 11.7,
+                    "fat": 4.6,
+                    "carbs": 48.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Apple (Big, 200g)",
+                    "calories": 210.3,
+                    "protein": 0.6,
+                    "fat": 1.3,
+                    "carbs": 26.2,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "lunch": [
+                {
+                    "item": "Agathi Leaves & Bamboo Shoot Sabzi (Agathi Leaves 150g, Bamboo Shoot 150g cooked)",
+                    "calories": 442.5,
+                    "protein": 13.7,
+                    "fat": 2.6,
+                    "carbs": 8.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Barley Roti (80g raw equivalent)",
+                    "calories": 264.8,
+                    "protein": 8.8,
+                    "fat": 1.0,
+                    "carbs": 49.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "dinner": [
+                {
+                    "item": "Baked Ari Fish with Basella Leaves (Ari Fish 100g, Basella Leaves 150g cooked)",
+                    "calories": 415.0,
+                    "protein": 22.0,
+                    "fat": 1.1,
+                    "carbs": 0.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "non_vegetarian"
+                    ]
+                },
+                {
+                    "item": "Basella Leaves (150g cooked)",
+                    "calories": 123.0,
+                    "protein": 2.4,
+                    "fat": 0.7,
+                    "carbs": 3.0,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "snacks": [
+                {
+                    "item": "Avocado Fruit (100g)",
+                    "calories": 604.0,
+                    "protein": 3.0,
+                    "fat": 13.9,
+                    "carbs": 1.8,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "item": "Banana (Robusta, 150g)",
+                    "calories": 177.3,
+                    "protein": 1.8,
+                    "fat": 0.5,
+                    "carbs": 35.4,
+                    "tags": [
+                        "healthy",
+                        "nutrient_dense",
+                        "alkaline_promoting",
+                        "vegetarian"
+                    ]
+                }
+            ],
+            "total_nutrition": {
+                "calories": 2335.0,
+                "protein": 64.0,
+                "fat": 25.7,
+                "carbs": 171.4
+            },
+            "medical_reasoning": "Patient's pH of 4.6 indicates severe acidosis. The diet plan focuses on alkaline-promoting foods such as a wide variety of fresh fruits and vegetables to help neutralize acid and support metabolic balance. Lean protein sources like fish are included in moderation, alongside whole grains like bajra and barley. Processed foods, excessive sugars, and highly acid-forming foods are minimized. The meals are also designed to be nutrient-dense and healthy for general well-being, supporting the patient's moderate clinical risk status."
+        }
+    },
+    "weekly_nutrition_summary": {
+        "average_per_day": {
+            "calories": 2697.8,
+            "protein": 56.7,
+            "fat": 26.0,
+            "carbs": 176.6
+        },
+        "weekly_total": {
+            "calories": 18884.6,
+            "protein": 396.9,
+            "fat": 182.0,
+            "carbs": 1236.4
+        }
+    },
+    "grocery_list": [
+        {
+            "item": "Bajra",
+            "times_used_in_week": 7
+        },
+        {
+            "item": "Banana (Robusta)",
+            "times_used_in_week": 4
+        },
+        {
+            "item": "Almond",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Agathi leaves",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Barley",
+            "times_used_in_week": 7
+        },
+        {
+            "item": "Ari fish",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Ash gourd",
+            "times_used_in_week": 4
+        },
+        {
+            "item": "Apple (Big)",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Apricot, dried",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Amaranth seed, black",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Banana (Poovam)",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Avocado fruit",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Basella leaves",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Aluva",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Bamboo shoot, tender",
+            "times_used_in_week": 3
+        },
+        {
+            "item": "Apple (Green)",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Amaranth leaves, red mix",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Anchovy",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Bael fruit",
+            "times_used_in_week": 2
+        },
+        {
+            "item": "Apple (Small)",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Banana (Montham)",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Amaranth seed, pale brown",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Banana (Red)",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Asafoetida",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Amaranth leaves, green",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Apple (Small, Kashmir)",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Amaranth leaves, red and green mix",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Arecanut, dried, brown",
+            "times_used_in_week": 1
+        },
+        {
+            "item": "Arecanut, fresh",
+            "times_used_in_week": 1
+        }
+    ]
+}

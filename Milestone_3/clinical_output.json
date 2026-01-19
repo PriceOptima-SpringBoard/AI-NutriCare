@@ -1,0 +1,26 @@
+{
+    "patient_metrics": {
+        "mortality_risk": 0.4801770746707916,
+        "heart_rate": 0.0,
+        "temperature_f": null,
+        "blood_pressure_mean": null,
+        "glucose": null,
+        "creatinine": null,
+        "urea": null,
+        "sodium": null,
+        "potassium": null,
+        "hemoglobin": null,
+        "wbc": null,
+        "lactate": null,
+        "ph": 4.6,
+        "cholesterol": null,
+        "age": 41,
+        "gender": "Male"
+    },
+    "conditions": [
+        "Moderate Clinical Risk"
+    ],
+    "recommendations": [],
+    "avoid": [],
+    "summary": "Patient requires monitoring and dietary management."
+}
