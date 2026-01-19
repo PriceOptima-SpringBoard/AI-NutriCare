@@ -21,7 +21,7 @@ The system operates through a specialized four-stage pipeline:
 - **Powered by Gemini 2.5 Flash**: Optimized for high-speed, low-latency generation of medically complex dietary plans.
 - **Medical Safety First**: Hybrid logic ensures AI-generated diets strictly adhere to clinical bounds (e.g., Diabetic/Renal-safe protocols).
 - **OCR Fallback**: Robust processing for both digital and scanned (image-based) medical reports via `pytesseract`.
-- **Cultural Customization**: Specifically tuned for Indian recovery diets (e.g., Ragi Ganji, Moong Dal Khichdi, Buttermilk).
+- **Cultural Customization**: Specifically tuned for Indian recovery diets (e.g., Moong Dal Khichdi, Buttermilk).
 - **JSON Interoperability**: Generates machine-readable outputs for seamless frontend or mobile app integration.
 
 ---
