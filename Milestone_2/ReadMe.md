@@ -44,7 +44,7 @@ All inputs are **prevalidated**, **standardized**, and **temporally aligned** fr
 
 
 **📁 Folder:** `AI-NutriCare/Milestone_2/`  
-**Main Notebook:** `Milestone-2: ML-Based Health Analysis.ipynb`  
+**Main Notebook:** `ML_based_Health_Analysis.ipynb`  
 
 ---
 
