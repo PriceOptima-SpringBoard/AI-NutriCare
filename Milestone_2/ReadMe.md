@@ -37,3 +37,14 @@ All inputs are prevalidated and temporally aligned from Milestone 1.
 - [x] Generate patient-level risk trajectories.
 - [x] Compute derived clinical risk indices (NRI).
 - [x] Save trained models and prediction artifacts for downstream simulation.
+
+---
+### 📈Outputs Generated
+| Output             | Description                                   |
+| ------------------ | --------------------------------------------- |
+| Trained Models     | Single-task & multi-task deep learning models |
+| Risk Trajectories  | Hour-wise mortality risk per patient          |
+| NRI Values         | Derived nutrition risk scores                 |
+| Evaluation Metrics | Loss trends and validation performance        |
+| Saved Artifacts    | `.h5` and `.npy` files for reuse              |
+
