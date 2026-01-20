@@ -12,6 +12,8 @@ AI-NutriCare bridges this gap by providing a personalized, data-driven diet plan
 ### DataSet Used
 Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
 
+---
+
 ### Repository Structure
 - AI-NutriCare/
   - `Dataset`
@@ -30,6 +32,7 @@ Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-de
     - `ReadMe.md`
   - `Milestone_4/`
   - `README.md`
+---
 
 ###  MILESTONES
 
