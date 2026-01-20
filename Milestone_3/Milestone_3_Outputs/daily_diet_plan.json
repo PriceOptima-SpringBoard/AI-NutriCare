@@ -1,0 +1,86 @@
+{
+    "day_plan": {
+        "breakfast": [
+            {
+                "item": "Bajra Porridge with chopped Almonds and a hint of cardamom",
+                "calories": 469.9,
+                "protein": 14.6,
+                "fat": 17.1,
+                "carbs": 62.4,
+                "tags": [
+                    "low_GI",
+                    "high_fiber",
+                    "diabetic_friendly",
+                    "low_sugar"
+                ]
+            }
+        ],
+        "lunch": [
+            {
+                "item": "Bajra Roti with Moong Dal Tadka and Agathi Leaves Sabzi",
+                "calories": 463.5,
+                "protein": 25.5,
+                "fat": 9.7,
+                "carbs": 66.1,
+                "tags": [
+                    "low_GI",
+                    "high_fiber",
+                    "diabetic_friendly",
+                    "low_sugar"
+                ]
+            }
+        ],
+        "dinner": [
+            {
+                "item": "Pan-seared Allathi Fish with Steamed Basella Leaves and a small portion of Brown Rice",
+                "calories": 390.1,
+                "protein": 38.2,
+                "fat": 8.4,
+                "carbs": 40.0,
+                "tags": [
+                    "low_GI",
+                    "high_fiber",
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "heart_healthy"
+                ]
+            }
+        ],
+        "snacks": [
+            {
+                "item": "A small Apple",
+                "calories": 63.8,
+                "protein": 0.3,
+                "fat": 0.5,
+                "carbs": 14.0,
+                "tags": [
+                    "low_GI",
+                    "high_fiber",
+                    "diabetic_friendly",
+                    "low_sugar"
+                ]
+            },
+            {
+                "item": "A handful of Almonds",
+                "calories": 91.4,
+                "protein": 2.8,
+                "fat": 8.8,
+                "carbs": 0.5,
+                "tags": [
+                    "low_GI",
+                    "high_fiber",
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "heart_healthy"
+                ]
+            }
+        ]
+    },
+    "total_nutrition": {
+        "calories": 1478.7,
+        "protein": 81.4,
+        "fat": 44.5,
+        "carbs": 183.0
+    },
+    "medical_reasoning": "The patient has 'Hyperglycemia / Diabetes Risk' and is recommended to consume 'Low-GI foods' and a 'High-fiber diet', while avoiding 'Sweetened beverages' and 'Sugary foods'. This one-day meal plan is designed to meet these recommendations. It emphasizes whole grains like bajra and brown rice, which are naturally low-GI and high in fiber. Lentils (Moong Dal) and leafy greens (Agathi leaves, Basella leaves) further contribute to fiber intake and balanced nutrition. Lean protein from fish and healthy fats from almonds are included to support overall health and blood sugar management. All meals are prepared without added sugars or sweetened beverages. Nutritional values for common Indian staples not explicitly in the provided knowledge base (e.g., Moong Dal, Brown Rice) were estimated based on typical nutritional profiles for these food items."
+}
