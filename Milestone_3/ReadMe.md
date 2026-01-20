@@ -26,3 +26,13 @@ All inputs are dynamically consumed to ensure **patient-specific recommendations
 7. Aggregate weekly nutrition statistics.
 8. Generate consolidated grocery list from weekly meals.
 9. Output structured JSON for frontend/API consumption.
+
+---
+## 📈 Weekly Nutrition Summary
+
+The system generates:
+- Total weekly calories
+- Average daily protein, fat, and carbohydrates
+- Macro balance indicators
+
+This enables **long-term diet monitoring and adjustment**.
