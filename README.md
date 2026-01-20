@@ -10,7 +10,8 @@ Patients often struggle to interpret their medical reports and adjust their diet
 AI-NutriCare bridges this gap by providing a personalized, data-driven diet plan that adapts to the patient’s medical context.
 
 ### DataSet Used
-Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
+> Link - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" width="28"/> 
+https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
 
 ---
 
