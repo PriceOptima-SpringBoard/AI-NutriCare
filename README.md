@@ -85,7 +85,7 @@ Most existing diet plans are **generic** and **ignore the individual’s medical
 
 ---
 
-### 🌐 Milestone 4: Deployment 
+### 🌐 Milestone 4: Diet Plan Generation and UI Integration
 **Objective:** Deploy the platform as a web-based application for patients and clinicians. 
 
 **Key Tasks:** - Development of a web interface for report uploading and plan visualization.  
