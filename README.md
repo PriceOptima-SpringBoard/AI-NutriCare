@@ -31,18 +31,18 @@ Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-de
   - `Milestone_4/`
   - `README.md`
 
-### MILESTONES
+###  MILESTONES
 
-#### 🎯Milestone-1: Data Collection & Time-Series Preprocessing
+#### 🎯 Milestone-1: Data Collection & Time-Series Preprocessing
 - **Objective:**
 > Ingest, clean, and harmonize multi-source ICU and patient data into fixed-length (24-hour) multivariate time-series suitable for ML/DL modeling.
 
-#### 🎯Milestone-2: Machine Learning–Based Health Analysis
+#### 🎯 Milestone-2: Machine Learning–Based Health Analysis
 - **Objective:**
 > Train deep learning models on ICU time-series data to learn temporal patterns and predict patient outcomes and clinical risk for downstream nutrition and
 > intervention planning.
 
-#### 🧠Milestone-3: AI/NLP Text Interpretation
+#### 🧠 Milestone-3: AI/NLP Text Interpretation
 - **Objective:**
 > Transform model-predicted clinical risks and structured patient data into medically safe, personalized diet plans using AI/NLP, clinical rule enforcement, and a nutrition knowledge base, generating explainable daily and weekly dietary recommendations for downstream frontend delivery.
 
