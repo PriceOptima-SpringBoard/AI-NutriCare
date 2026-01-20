@@ -46,7 +46,7 @@ This enables **long-term diet monitoring and adjustment**.
 
 
 ---
-## ☑️ Outcomes
+## ☑️ Outcomes of Milestone-3
 
 - ML predictions successfully translated into actionable diet plans
 - Medical safety enforced via rule-based + AI hybrid approach
