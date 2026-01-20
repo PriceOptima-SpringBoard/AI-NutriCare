@@ -33,12 +33,16 @@ All inputs are dynamically consumed to ensure **patient-specific recommendations
 ---
 ## 📈 Weekly Nutrition Summary
 
-The system generates:
-- Total weekly calories
-- Average daily protein, fat, and carbohydrates
-- Macro balance indicators
+| Metric | Description |
+|------|------------|
+| Total Calories | Sum of calories consumed over the week |
+| Protein Intake | Average daily protein consumption |
+| Fat Intake | Average daily fat consumption |
+| Carbohydrates | Average daily carbohydrate intake |
+| Macro Balance | Indicator of nutritional balance |
 
 This enables **long-term diet monitoring and adjustment**.
+
 
 ---
 ## ☑️ Outcomes
