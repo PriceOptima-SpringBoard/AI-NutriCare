@@ -1,0 +1,82 @@
+{
+    "day_plan": {
+        "breakfast": [
+            {
+                "item": "Bajra Porridge with Skim Milk and Almonds",
+                "calories": 391.0,
+                "protein": 15.43,
+                "fat": 13.17,
+                "carbs": 51.2,
+                "tags": [
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "low_GI",
+                    "high_fiber"
+                ]
+            }
+        ],
+        "lunch": [
+            {
+                "item": "3 Whole Wheat Roti, 1.5 servings Dal (lentil curry), 1 serving Basella Leaves Sabzi",
+                "calories": 480.0,
+                "protein": 24.85,
+                "fat": 11.17,
+                "carbs": 78.01,
+                "tags": [
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "low_GI",
+                    "high_fiber"
+                ]
+            }
+        ],
+        "dinner": [
+            {
+                "item": "Barley and Dal Khichdi with Mixed Vegetables, Steamed Agathi Leaves",
+                "calories": 411.5,
+                "protein": 21.67,
+                "fat": 4.51,
+                "carbs": 66.11,
+                "tags": [
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "low_GI",
+                    "high_fiber"
+                ]
+            }
+        ],
+        "snacks": [
+            {
+                "item": "1 Small Apple, 20g Roasted Amaranth Seeds",
+                "calories": 135.2,
+                "protein": 3.23,
+                "fat": 1.68,
+                "carbs": 25.94,
+                "tags": [
+                    "diabetic_friendly",
+                    "low_sugar",
+                    "low_GI",
+                    "high_fiber"
+                ]
+            },
+            {
+                "item": "Unsweetened Buttermilk (Chaas)",
+                "calories": 80.0,
+                "protein": 8.0,
+                "fat": 2.0,
+                "carbs": 8.0,
+                "tags": [
+                    "diabetic_friendly",
+                    "low_sugar"
+                ]
+            }
+        ]
+    },
+    "total_nutrition": {
+        "calories": 1497.7,
+        "protein": 73.18,
+        "fat": 32.53,
+        "carbs": 229.26
+    },
+    "medical_reasoning": "The patient has hyperglycemia/diabetes risk and recommendations for low-GI, high-fiber foods, while avoiding sweetened beverages and sugary foods. This meal plan focuses on whole grains like bajra and barley, various leafy greens (basella, agathi), and lentils (dal) to provide complex carbohydrates and ample fiber, which are crucial for blood sugar management. Snacks include whole fruit and nutritious seeds, avoiding added sugars. This approach supports stable blood glucose levels and overall well-being in line with the patient's clinical needs."
+}
