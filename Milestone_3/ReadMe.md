@@ -6,13 +6,16 @@
 
 ## 🧠 Inputs Used
 
-- Model predictions (mortality / nutrition risk scores)
-- Processed ICU & clinical data (from Milestone-1)
-- Extracted lab values (Glucose, Creatinine, Sodium, Cholesterol, etc.)
-- Patient metadata (Age, Gender)
-- Diet Knowledge Base (Indian foods with nutrition values)
+| Input Type | Description |
+|----------|------------|
+|  Model Predictions | Mortality and nutrition risk scores |
+|  ICU & Clinical Data | Processed patient data from Milestone-1 |
+|  Lab Values | Glucose, Creatinine, Sodium, Cholesterol, etc. |
+|  Patient Metadata | Age, Gender |
+|  Diet Knowledge Base | Indian food items with nutrition values |
 
 All inputs are dynamically consumed to ensure **patient-specific recommendations**.
+
 
 ---
 ## 📌 Steps Performed
