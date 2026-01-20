@@ -49,6 +49,8 @@ Link - https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-de
 - **Objective:**
 > Transform model-predicted clinical risks and structured patient data into medically safe, personalized diet plans using AI/NLP, clinical rule enforcement, and a nutrition knowledge base, generating explainable daily and weekly dietary recommendations for downstream frontend delivery.
 
+#### 🚀 Milestone-4: Diet Plan Generation & UI Integration
+
 ---
 
 ### Tech Stack
