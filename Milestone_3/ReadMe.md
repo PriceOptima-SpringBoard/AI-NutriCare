@@ -36,3 +36,11 @@ The system generates:
 - Macro balance indicators
 
 This enables **long-term diet monitoring and adjustment**.
+
+---
+## ☑️ Outcomes
+
+- ML predictions successfully translated into actionable diet plans
+- Medical safety enforced via rule-based + AI hybrid approach
+- Indian diet patterns preserved with clinical correctness
+- Ready for frontend integration and user-level personalization
