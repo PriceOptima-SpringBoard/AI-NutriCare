@@ -48,3 +48,10 @@ All inputs are prevalidated and temporally aligned from Milestone 1.
 | Evaluation Metrics | Loss trends and validation performance        |
 | Saved Artifacts    | `.h5` and `.npy` files for reuse              |
 
+---
+### ☑️Outcome of Milestone 2
+
+- Successfully trained deep learning models on ICU time-series data
+- Generated dynamic, interpretable patient risk predictions
+- Established a robust foundation for adaptive nutrition simulation and feedback
+- Enabled closed-loop clinical decision modeling in subsequent milestones
