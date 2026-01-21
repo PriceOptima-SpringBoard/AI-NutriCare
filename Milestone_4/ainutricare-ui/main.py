@@ -1,6 +1,4 @@
 # main.py
-from dotenv import load_dotenv
-load_dotenv()
 import os
 import io
 import json
@@ -28,20 +26,15 @@ from google.genai import types
 # 0. CONFIG
 # =========================
 # Paths (update to match your setup)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = r"C:\AINutriCare\Notebooks\Milestone_2\LSTM\attention_lstm.h5"
+SCALER_PATH = r"C:\AINutriCare\Data\Transformed\X_final.npy"
+FOOD_KB_FILE = "diet_kb.json"
 
-MODEL_PATH = os.path.join(BASE_DIR, "models", "attention_lstm_outcome_model.h5")
-SCALER_PATH = os.path.join(BASE_DIR, "data", "X_timeseries.npy")
-FOOD_KB_FILE = os.path.join(BASE_DIR, "diet_kb.json")
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise RuntimeError("GEMINI_API_KEY not set in environment variables")
-
-GEMINI_MODEL_ID = "gemini-2.5-flash"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "Add Gemini key here")
+GEMINI_MODEL_ID = "gemma-3-12b"
 
 # Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"E:\installs\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
