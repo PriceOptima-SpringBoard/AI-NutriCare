@@ -1,0 +1,25 @@
+Dataset Requirements – AI-NutriCare
+
+Dataset Name:
+MIMIC-IV Clinical Database (Demo v2.2)
+
+Source:
+https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
+
+License:
+Open Database License
+
+Included Tables:
+- icu/chartevents.csv (Git LFS tracked)
+- icu/icustays.csv
+- hosp/patients.csv
+
+Purpose in Project:
+Used for ICU time-series feature extraction and personalized diet risk analysis.
+
+Notes:
+- Large files are tracked using Git LFS.
+- Full dataset is not included due to size and license constraints.
+- Users must obtain access from PhysioNet to reproduce results.
+
+
