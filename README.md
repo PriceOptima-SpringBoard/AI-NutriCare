@@ -71,3 +71,33 @@ https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
 | **Tools & Platforms**     | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28"/>   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28"/> |
 
 
+## ⚡ How to Run
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/PriceOptima-SpringBoard/AI-NutriCare.git
+cd AI-NutriCare
+```
+1. **Create & Activate Virtual Environment**
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+4. **Set Environment Variables**
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
+5. **Run Backend**
+```bash
+uvicorn main:app --reload
+```
+6. **Run Frontend/UI**
+Open frontend folder and run the UI project (React/HTML).
+Ensure it points to backend at http://127.0.0.1:8000.
