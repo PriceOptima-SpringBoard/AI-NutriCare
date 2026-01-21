@@ -71,6 +71,8 @@ https://www.kaggle.com/datasets/montassarba/mimic-iv-clinical-database-demo-2-2
 | **Tools & Platforms**     | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28"/>   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28"/> |
 
 
+---
+
 ## ⚡ How to Run
 
 1. **Clone the Repository**
