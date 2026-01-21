@@ -1,3 +1,4 @@
+
 # AI-ML Based Personalized Diet Plan Generator
 ## 🎯Milestone-1
 #### Focus:
@@ -12,19 +13,6 @@
 - Outcome Labels (Mortality)
 
 _All sources aligned using `subject_id` and `stay_id`._
-
----
-
-### 📂Data Sources used:
-The EDA integrates multiple clinical data sources:
-- ICU Vital Signs (hourly measurements)
-- Laboratory Test Results
-- Medication & Prescription Records
-- Fluid Input & Output Events
-- Patient Demographics (age, gender)
-- Outcome Labels (mortality)
-
-All data is aligned using ICU stay / subject identifiers to ensure consistency.
 
 ---
 
@@ -78,7 +66,6 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Raw ICU data → model-ready time-series dataset  
 - Temporal consistency and label alignment ensured  
 - Ready for ML/DL training in Milestone-2
-
 
 
 
