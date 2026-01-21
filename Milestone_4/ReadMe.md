@@ -14,6 +14,5 @@
 
 ###  ☑️ Outcome
 - Complete end-to-end AI-NutriCare system.  
-<<<<<<< HEAD
 - Ready for deployment or further development.
 - Ready for deployment or further development.
