@@ -1,4 +1,5 @@
-## 🎯 Milestone-4: UI & Full System Integration
+# AI-ML Based Personalized Diet Plan Generator
+## 🎯Milestone-4
 
 **Focus:**  
 > Develop user-friendly interface and complete backend integration for end-to-end personalized diet plan generation.
