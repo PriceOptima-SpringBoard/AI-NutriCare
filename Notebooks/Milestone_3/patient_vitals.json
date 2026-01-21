@@ -1,0 +1,62 @@
+{
+    "Glucose": {
+        "value": "146",
+        "unit": "mg/dL",
+        "raw_match": "Glucose - Fasting\nGlucose fasting 146"
+    },
+    "HbA1c": {
+        "value": "8.2",
+        "unit": "%",
+        "raw_match": "HBA1c)\nTest Description Value(s) Reference Range\nGlyco Hb (HbA1C) 8.2"
+    },
+    "Creatinine": {
+        "value": "8.41",
+        "unit": "mg/dL",
+        "raw_match": "Creatinine Ratio\nBUN 8.41"
+    },
+    "Urea": {
+        "value": "18",
+        "unit": "mg/dL",
+        "raw_match": "UREA* 18"
+    },
+    "Hemoglobin": {
+        "value": "14.7",
+        "unit": "g/dL",
+        "raw_match": "Haemoglobin 14.7"
+    },
+    "WBC": {
+        "value": "5520",
+        "unit": "/cmm",
+        "raw_match": "Total WBC Count 5520"
+    },
+    "Cholesterol": {
+        "value": "263",
+        "unit": "mg/dL",
+        "raw_match": "Cholesterol-Total 263"
+    },
+    "Triglycerides": {
+        "value": "293",
+        "unit": "mg/dL",
+        "raw_match": "Triglycerides 293"
+    },
+    "TSH": {
+        "value": "7.415",
+        "unit": "\u00b5IU/mL",
+        "raw_match": "Thyroid Stimulating Hormone (TSH)\nTSH(THYROID STIMULATING HORMONE) 7.415"
+    },
+    "Vitamin D": {
+        "value": null,
+        "unit": "ng/mL",
+        "raw_match": "Not Found"
+    },
+    "Vitamin B12": {
+        "value": null,
+        "unit": "pg/mL",
+        "raw_match": "Not Found"
+    },
+    "Age": {
+        "value": "54",
+        "unit": "Years",
+        "raw_match": "Age / Gender : 54 years"
+    }
+}

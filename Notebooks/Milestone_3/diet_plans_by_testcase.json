@@ -1,0 +1,762 @@
+{
+  "TC-01": {
+    "clinical_scenario": "High Diabetes",
+    "input_labs": "Glucose=240",
+    "doctor_notes": "Advise diabetic diet",
+    "must_not_include": "Sweets, Juice",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Chicken Varuval",
+          "calories": 31.9925925926,
+          "protein": 13.822212963,
+          "fat": 5.1659462963,
+          "carbs": 3.5705762963,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Bisi bele bath",
+          "calories": 4.5063405797,
+          "protein": 8.763832654,
+          "fat": 1.2068676178,
+          "carbs": 9.1985630208,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Galho",
+          "calories": 154.6746794872,
+          "protein": 13.4604761218,
+          "fat": 10.5162207479,
+          "carbs": 22.0453971261,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Poriyal",
+          "calories": 159.3188405797,
+          "protein": 10.8773586957,
+          "fat": 20.6455144928,
+          "carbs": 13.8398166667,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Haq Maas",
+          "calories": 0.0,
+          "protein": 11.6219754167,
+          "fat": 5.8429333333,
+          "carbs": 2.2685954167,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 350.4924532392,
+      "protein": 58.5458558512,
+      "fat": 43.3774824881,
+      "carbs": 50.9229485266
+    }
+  },
+  "TC-02": {
+    "clinical_scenario": "Renal Patient",
+    "input_labs": "Creatinine=2.6",
+    "doctor_notes": "Renal precautions",
+    "must_not_include": "Red meat, Eggs",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Dosa",
+          "calories": 139.3452380952,
+          "protein": 10.0106185238,
+          "fat": 10.012872963,
+          "carbs": 38.1418442804,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Upma",
+          "calories": 0.0,
+          "protein": 6.6135416667,
+          "fat": 1.236,
+          "carbs": 18.3947916667,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Litti chokha",
+          "calories": 168.0736111111,
+          "protein": 14.8163946944,
+          "fat": 14.62427,
+          "carbs": 36.3052764167,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Chevdo",
+          "calories": 215.0,
+          "protein": 6.2017708333,
+          "fat": 7.768,
+          "carbs": 43.9973958333,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Kumol Sawul",
+          "calories": 159.2916666667,
+          "protein": 10.3205916667,
+          "fat": 7.7056111111,
+          "carbs": 37.0518527778,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Mawa Bati",
+          "calories": 188.1392424242,
+          "protein": 12.4790271245,
+          "fat": 3.4992624848,
+          "carbs": 49.2352834815,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Misi roti",
+          "calories": 148.7641369048,
+          "protein": 9.8384376533,
+          "fat": 4.5995156771,
+          "carbs": 44.7151866287,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Lassi",
+          "calories": 26.8714285714,
+          "protein": 8.3923419077,
+          "fat": 15.7049142857,
+          "carbs": 13.0608139256,
+          "tags": [
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 1045.4853237734,
+      "protein": 78.6727240704,
+      "fat": 65.1504465217,
+      "carbs": 280.9024450107
+    }
+  },
+  "TC-03": {
+    "clinical_scenario": "Cardiac Patient",
+    "input_labs": "Sodium=152",
+    "doctor_notes": "Low salt diet",
+    "must_not_include": "Pickles, Chips",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Poha",
+          "calories": 38.9322916667,
+          "protein": 4.3189377604,
+          "fat": 1.2007287326,
+          "carbs": 42.1901942274,
+          "tags": [
+            "low_fat"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Chicken Tikka",
+          "calories": 192.2729591837,
+          "protein": 15.059852915,
+          "fat": 6.9149528571,
+          "carbs": 42.7953443186,
+          "tags": [
+            "high_protein",
+            "low_fat"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Daal puri",
+          "calories": 205.6208333333,
+          "protein": 8.965240675,
+          "fat": 1.9775525417,
+          "carbs": 51.3781168458,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Imarti",
+          "calories": 74.0208333333,
+          "protein": 9.7877240833,
+          "fat": 3.2680183333,
+          "carbs": 44.2394225833,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 510.846917517,
+      "protein": 38.1317554337,
+      "fat": 13.3612524647,
+      "carbs": 180.6030779751
+    }
+  },
+  "TC-04": {
+    "clinical_scenario": "Multi-condition",
+    "input_labs": "Glucose=220, Creatinine=2.1, Cholesterol=260",
+    "doctor_notes": "Diet control",
+    "must_not_include": "Fried food, Sweets",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Kuzhakkattai",
+          "calories": 200.4233870968,
+          "protein": 14.3290034969,
+          "fat": 35.2664017593,
+          "carbs": 23.4213164434,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Theeyal",
+          "calories": 155.0296889101,
+          "protein": 14.1155307305,
+          "fat": 31.0032890626,
+          "carbs": 15.7566226619,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Kolim Jawla",
+          "calories": 215.125,
+          "protein": 10.5117265625,
+          "fat": 29.270015625,
+          "carbs": 11.54890625,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Shukto",
+          "calories": 4.5063405797,
+          "protein": 7.4267493207,
+          "fat": 0.8663342844,
+          "carbs": 6.6180796875,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 575.0844165866,
+      "protein": 46.3830101106,
+      "fat": 96.4060407313,
+      "carbs": 57.3449250428
+    }
+  },
+  "TC-05": {
+    "clinical_scenario": "Ambiguous Notes",
+    "input_labs": "BP High",
+    "doctor_notes": "Diet as tolerated",
+    "must_not_include": "Salty food",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Dosa",
+          "calories": 139.3452380952,
+          "protein": 10.0106185238,
+          "fat": 10.012872963,
+          "carbs": 38.1418442804,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Chevdo",
+          "calories": 215.0,
+          "protein": 6.2017708333,
+          "fat": 7.768,
+          "carbs": 43.9973958333,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Ghooghra",
+          "calories": 181.2592424242,
+          "protein": 14.1128371545,
+          "fat": 3.0910224848,
+          "carbs": 63.0067054515,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Aloo matar",
+          "calories": 47.6666666667,
+          "protein": 6.4889583333,
+          "fat": 0.8281,
+          "carbs": 40.283275,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 583.2711471861,
+      "protein": 36.8141848449,
+      "fat": 21.7999954478,
+      "carbs": 185.4292205652
+    }
+  },
+  "TC-06": {
+    "clinical_scenario": "Negation Case",
+    "input_labs": "Normal labs",
+    "doctor_notes": "No fluid restriction required",
+    "must_not_include": NaN,
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Paratha",
+          "calories": 147.3854166667,
+          "protein": 12.062934125,
+          "fat": 17.9294175,
+          "carbs": 57.8273725417,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Fara",
+          "calories": 170.4416937229,
+          "protein": 12.8885932641,
+          "fat": 5.3175076515,
+          "carbs": 50.7242237381,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Thepla",
+          "calories": 245.0208333333,
+          "protein": 12.82095325,
+          "fat": 3.7440183333,
+          "carbs": 68.98202675,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Khandvi",
+          "calories": 54.7538419913,
+          "protein": 12.725456099,
+          "fat": 17.3842319021,
+          "carbs": 29.9072800089,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 617.6017857142,
+      "protein": 50.4979367381,
+      "fat": 44.375175387,
+      "carbs": 207.4409030876
+    }
+  },
+  "TC-07": {
+    "clinical_scenario": "Healthy Patient",
+    "input_labs": "All labs normal",
+    "doctor_notes": "Healthy balanced diet",
+    "must_not_include": NaN,
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Dosa",
+          "calories": 139.3452380952,
+          "protein": 10.0106185238,
+          "fat": 10.012872963,
+          "carbs": 38.1418442804,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Kumol Sawul",
+          "calories": 159.2916666667,
+          "protein": 10.3205916667,
+          "fat": 7.7056111111,
+          "carbs": 37.0518527778,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Galho",
+          "calories": 154.6746794872,
+          "protein": 13.4604761218,
+          "fat": 10.5162207479,
+          "carbs": 22.0453971261,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Attu",
+          "calories": 148.7641369048,
+          "protein": 9.8384376533,
+          "fat": 4.5995156771,
+          "carbs": 44.7151866287,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 602.0757211539,
+      "protein": 43.6301239656,
+      "fat": 32.8342204991,
+      "carbs": 141.954280813
+    }
+  },
+  "TC-08": {
+    "clinical_scenario": "Missing Sodium",
+    "input_labs": "Sodium missing",
+    "doctor_notes": "Low salt diet",
+    "must_not_include": "Salty snacks",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Paratha",
+          "calories": 147.3854166667,
+          "protein": 12.062934125,
+          "fat": 17.9294175,
+          "carbs": 57.8273725417,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Sattu ki roti",
+          "calories": 238.75,
+          "protein": 8.859375,
+          "fat": 28.92825,
+          "carbs": 3.462375,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Puli sadam",
+          "calories": 199.7916666667,
+          "protein": 14.8934488095,
+          "fat": 10.1177539683,
+          "carbs": 37.1749480159,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Papadum",
+          "calories": 138.8333333333,
+          "protein": 16.603125,
+          "fat": 19.3267333333,
+          "carbs": 28.629155,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 724.7604166667,
+      "protein": 52.4188830695,
+      "fat": 76.3021548016,
+      "carbs": 127.0938505576
+    }
+  },
+  "TC-09": {
+    "clinical_scenario": "Repeatability",
+    "input_labs": "Same labs twice",
+    "doctor_notes": "Same notes",
+    "must_not_include": "Forbidden foods",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Idli",
+          "calories": 163.0416666667,
+          "protein": 8.7821541667,
+          "fat": 10.1148261111,
+          "carbs": 41.0343519444,
+          "tags": [
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Litti chokha",
+          "calories": 168.0736111111,
+          "protein": 14.8163946944,
+          "fat": 14.62427,
+          "carbs": 36.3052764167,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Aloo tikki",
+          "calories": 153.9583333333,
+          "protein": 10.1297429667,
+          "fat": 5.8821977778,
+          "carbs": 57.4256581444,
+          "tags": [
+            "high_protein",
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Paniyaram",
+          "calories": 20.93125,
+          "protein": 4.1411286375,
+          "fat": 1.4990796875,
+          "carbs": 7.6945018313,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "low_fat"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 506.0048611111,
+      "protein": 37.8694204653,
+      "fat": 32.1203735764,
+      "carbs": 142.4597883368
+    }
+  },
+  "TC-10": {
+    "clinical_scenario": "End-to-End",
+    "input_labs": "Mixed labs",
+    "doctor_notes": "Mixed notes",
+    "must_not_include": "Unsafe food",
+    "day_plan": {
+      "breakfast": [
+        {
+          "item": "Dosa",
+          "calories": 139.3452380952,
+          "protein": 10.0106185238,
+          "fat": 10.012872963,
+          "carbs": 38.1418442804,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Mag Dhokli",
+          "calories": 152.0564381271,
+          "protein": 13.6185280362,
+          "fat": 18.5897994273,
+          "carbs": 6.8860805048,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Lauki ki subji",
+          "calories": 282.0208333333,
+          "protein": 7.5940989583,
+          "fat": 37.5891864583,
+          "carbs": 13.3452880208,
+          "tags": [
+            "diabetic_friendly",
+            "low_sugar",
+            "renal_safe"
+          ]
+        },
+        {
+          "item": "Naan",
+          "calories": 164.8988095238,
+          "protein": 11.8453567476,
+          "fat": 16.1910673333,
+          "carbs": 42.3848238238,
+          "tags": [
+            "high_protein",
+            "renal_safe"
+          ]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Methi na Gota",
+          "calories": 50.375,
+          "protein": 9.1621841111,
+          "fat": 3.41479,
+          "carbs": 39.3482841528,
+          "tags": [
+            "low_fat",
+            "renal_safe"
+          ]
+        }
+      ]
+    },
+    "total_nutrition": {
+      "calories": 788.6963190794,
+      "protein": 52.230786377,
+      "fat": 85.797716182,
+      "carbs": 140.1063207826
+    }
+  }
+}
