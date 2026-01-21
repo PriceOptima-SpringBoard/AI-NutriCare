@@ -1,0 +1,75 @@
+/* src/styles/animations.css */
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-25px) rotate(5deg);
+    }
+}
+
+.animate-float {
+    animation: float 25s infinite ease-in-out;
+}
+
+@keyframes pulse-slow {
+
+    0%,
+    100% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 12s infinite ease-in-out;
+}
+
+.animate-pulse-slow-delayed {
+    animation: pulse-slow 14s infinite ease-in-out;
+    animation-delay: 3s;
+}
+
+/* === Global Brand Gradients === */
+
+/* Primary: Cool-to-Violet (Cyan → Magenta) */
+.bg-gradient-primary {
+    background: hsla(211, 96%, 62%, 1);
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+}
+
+.bg-gradient-primary-hover:hover {
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+}
+
+/* Secondary: Warm Amber-to-Terracotta (Gold → Coral) */
+.bg-gradient-warm {
+    background: hsla(51, 89%, 61%, 1);
+    background: linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+}
+
+.bg-gradient-warm-hover:hover {
+    background: linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+}
+
+/* Text Gradients */
+.text-gradient-primary {
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-warm {
+    background: linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

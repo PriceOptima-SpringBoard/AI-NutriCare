@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+numpy
+pandas
+tensorflow
+pdfplumber
+pdf2image
+pytesseract
+Pillow
+scikit-learn
+google-generativeai
