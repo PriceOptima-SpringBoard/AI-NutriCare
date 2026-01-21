@@ -3,17 +3,6 @@
 #### Focus:
 > This milestone focuses on data collection, preprocessing, and dynamic time-series dataset creation from medical and ICU data. The Output generated is a structured dataset  ready for AI/ML modeling.
 
-### 📂 Data Sources Used
-- ICU Vitals (hourly)
-- Laboratory Results
-- Medications & Prescriptions
-- Fluid Input / Output
-- Patient Demographics (Age, Gender)
-- Outcome Labels (Mortality)
-
-_All sources aligned using `subject_id` and `stay_id`._
-
----
 
 ### 📂Data Sources used:
 The EDA integrates multiple clinical data sources:
@@ -78,6 +67,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Raw ICU data → model-ready time-series dataset  
 - Temporal consistency and label alignment ensured  
 - Ready for ML/DL training in Milestone-2
+
 
 
 
