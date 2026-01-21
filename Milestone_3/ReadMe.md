@@ -17,7 +17,6 @@
 
 All inputs are dynamically consumed to ensure **patient-specific recommendations**.
 
-
 ---
 ## 📌 Steps Performed
 
