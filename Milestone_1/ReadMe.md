@@ -1,6 +1,5 @@
 # AI-ML Based Personalized Diet Plan Generator
 ## 🎯Milestone-1
-<<<<<<< HEAD
 #### Focus:
 > This milestone focuses on data collection, preprocessing, and dynamic time-series dataset creation from medical and ICU data. The Output generated is a structured dataset  ready for AI/ML modeling.
 
@@ -175,6 +174,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Ensured temporal consistency, feature completeness, and label alignment
 - Established a solid foundation for ML/DL model training in subsequent phases
 >>>>>>> 12b7623 (Renamed folder)
+
 
 
 
