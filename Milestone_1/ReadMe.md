@@ -14,7 +14,6 @@
 _All sources aligned using `subject_id` and `stay_id`._
 
 ---
-=======
 This milestone focuses on data collection, preprocessing, and dynamic time-series dataset creation from medical and ICU data. The output is a structured dataset ready for AI/ML modeling.
 
 ### 📂Data Sources used:
@@ -27,7 +26,6 @@ The EDA integrates multiple clinical data sources:
 - Outcome Labels (mortality)
 
 All data is aligned using ICU stay / subject identifiers to ensure consistency.
->>>>>>> 12b7623 (Renamed folder)
 
 ### 📌Steps Performed:
 - [x] Collect and merge patient medical data from multiple sources (ICU vitals, lab results, fluid balance, prescriptions).
@@ -38,7 +36,6 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 - [x] Extract patient outcome labels (y) for mortality prediction.
 - [x] Save the processed dataset for downstream modeling.
 
-<<<<<<< HEAD
 ---
 ## 🔧 Key Processing Steps Done
 
@@ -55,7 +52,6 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 | 9 | Validation & Quality Checks | Verified sequence length, feature alignment, and data completeness | Model-ready dataset |
 
 ---
-=======
 ### 🔧 Key Processing Steps Done:
 1️⃣ Data Collection & Filtering
 - Selected ICU stays with sufficient data coverage.
@@ -126,7 +122,6 @@ All data is aligned using ICU stay / subject identifiers to ensure consistency.
 - Removed ICU stays with incomplete or incompatible data.
 
 Final dataset reflects fully aligned and validated ICU stays.
->>>>>>> 12b7623 (Renamed folder)
 
 ### 📈Dataset Composition
 Each patient/ICU stay is represented as a 24-hour multivariate time-series:
@@ -138,7 +133,6 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 | Medications | Vasopressors, Sedatives, Antibiotics, Insulin |
 | Demographic | Age, Gender |
 
-<<<<<<< HEAD
 ---
 
 ### 💾 Output
@@ -174,6 +168,7 @@ Each patient/ICU stay is represented as a 24-hour multivariate time-series:
 - Ensured temporal consistency, feature completeness, and label alignment
 - Established a solid foundation for ML/DL model training in subsequent phases
 >>>>>>> 12b7623 (Renamed folder)
+
 
 
 
