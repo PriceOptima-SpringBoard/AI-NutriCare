@@ -99,5 +99,5 @@ GEMINI_API_KEY=your_api_key_here
 uvicorn main:app --reload
 ```
 6. **Run Frontend/UI**
-Open frontend folder and run the UI project (React/HTML).
-Ensure it points to backend at http://127.0.0.1:8000.
+- Open frontend folder and run the UI project (React/HTML).
+- Ensure it points to backend at http://127.0.0.1:8000.
