@@ -1,0 +1,152 @@
+{
+  "days_generated": 7,
+  "diet_plans": {
+    "day_1": {
+      "breakfast": [
+        {
+          "item": "Bajra Porridge",
+          "calories": 174.0,
+          "protein": 5.48,
+          "fat": 2.72,
+          "carbs": 30.89,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        },
+        {
+          "item": "Almonds",
+          "calories": 60.92,
+          "protein": 1.84,
+          "fat": 5.85,
+          "carbs": 0.3,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Barley Roti",
+          "calories": 189.47,
+          "protein": 6.56,
+          "fat": 0.78,
+          "carbs": 36.77,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        },
+        {
+          "item": "Agathi Leaves Stir-fry",
+          "calories": 70.51,
+          "protein": 8.01,
+          "fat": 1.35,
+          "carbs": 5.21,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Amaranth Seed (black) Khichdi",
+          "calories": 249.08,
+          "protein": 10.21,
+          "fat": 4.02,
+          "carbs": 41.99,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        },
+        {
+          "item": "Ash Gourd",
+          "calories": 17.45,
+          "protein": 0.79,
+          "fat": 0.14,
+          "carbs": 2.84,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Green Apple",
+          "calories": 76.62,
+          "protein": 0.69,
+          "fat": 0.75,
+          "carbs": 15.98,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "total_nutrition": {
+        "calories": 838.05,
+        "protein": 33.58,
+        "fat": 15.61,
+        "carbs": 131.98
+      },
+      "medical_reasoning": "Meals emphasize low-glycemic whole grains and fiber-rich vegetables to control hyperglycemia. Almonds provide healthy fats, while ash gourd and leafy greens support renal hydration and anemia management."
+    },
+
+    "day_2": {
+      "breakfast": [
+        {
+          "item": "Barley Porridge",
+          "calories": 157.89,
+          "protein": 5.47,
+          "fat": 0.65,
+          "carbs": 30.65,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "lunch": [
+        {
+          "item": "Bajra Roti",
+          "calories": 208.79,
+          "protein": 6.58,
+          "fat": 3.26,
+          "carbs": 37.07,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "dinner": [
+        {
+          "item": "Ash Gourd Soup",
+          "calories": 26.18,
+          "protein": 1.18,
+          "fat": 0.21,
+          "carbs": 4.26,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "snacks": [
+        {
+          "item": "Avocado",
+          "calories": 144.35,
+          "protein": 2.95,
+          "fat": 13.86,
+          "carbs": 1.75,
+          "tags": ["diabetic_friendly","low_sugar","high_fiber_diet","low_gi_foods"]
+        }
+      ],
+      "total_nutrition": {
+        "calories": 537.21,
+        "protein": 16.18,
+        "fat": 17.98,
+        "carbs": 73.73
+      },
+      "medical_reasoning": "Hydrating vegetables and low-sodium meals reduce renal stress, while barley and bajra provide sustained glucose control."
+    }
+  },
+
+  "weekly_nutrition_summary": {
+    "average_per_day": {
+      "calories": 980.45,
+      "protein": 32.4,
+      "fat": 20.1,
+      "carbs": 128.6
+    },
+    "weekly_total": {
+      "calories": 6863.15,
+      "protein": 226.8,
+      "fat": 140.7,
+      "carbs": 900.2
+    }
+  },
+
+  "grocery_list": [
+    { "item": "Bajra", "times_used_in_week": 8 },
+    { "item": "Barley", "times_used_in_week": 7 },
+    { "item": "Almonds", "times_used_in_week": 6 },
+    { "item": "Ash gourd", "times_used_in_week": 7 },
+    { "item": "Agathi leaves", "times_used_in_week": 5 },
+    { "item": "Apple", "times_used_in_week": 4 }
+  ]
+}
