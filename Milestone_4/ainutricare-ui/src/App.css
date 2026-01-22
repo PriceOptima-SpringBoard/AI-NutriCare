@@ -1,0 +1,67 @@
+:root {
+  --color-primary: #00ACC1;
+  --color-secondary: #4CAF50;
+  --color-warning: #FFC107;
+  --color-danger: #EF5350;
+  --color-background: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-text: #2C3E50;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+[data-theme="dark"] {
+  --color-background: #1A1F2E;
+  --color-surface: #252B3B;
+  --color-text: #E8EAF6;
+}
+
+.app-container {
+  background: linear-gradient(135deg, var(--color-background) 0%, #E3F2FD 100%);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.upload-zone {
+  border: 2px dashed var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  background: var(--color-surface);
+  transition: all 0.3s ease;
+}
+
+.upload-zone:hover {
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.metric-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.meal-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.risk-indicator {
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
+}

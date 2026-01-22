@@ -4,6 +4,7 @@ import io
 import json
 import re
 from typing import Dict, Any, List
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -30,8 +31,8 @@ MODEL_PATH = r"C:\AINutriCare\Notebooks\Milestone_2\LSTM\attention_lstm.h5"
 SCALER_PATH = r"C:\AINutriCare\Data\Transformed\X_final.npy"
 FOOD_KB_FILE = "diet_kb.json"
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL_ID = "gemini-2.5-flash"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDTbMfZsx8X8BjUw5q1QIMLez9EFfOzk2s")
+GEMINI_MODEL_ID = "gemini-2.5-flash-lite"
 
 # Tesseract path
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -484,76 +485,68 @@ def get_smart_candidates(df, clinical_insights, dietary_preferences: Optional[Di
     # We return a list of dictionaries directly
     return candidates.sample(n=sample_size).to_dict(orient="records")
 
-def generate_structured_plan(patient_profile, clinical_data, food_candidates, dietary_preferences: Optional[DietaryPreferences] = None):
-    summary = clinical_data.get("summary", "Healthy Diet")
-    
-    # food_candidates is now a flat list, so we just dump it
+def generate_single_day_plan(patient_profile, clinical_insights, food_candidates, dietary_preferences, day_number, previous_items=None):
+    """Generate a single day's meal plan."""
+    summary = clinical_insights.get("summary", "Healthy Diet")
     options_preview = json.dumps(food_candidates, indent=2)
     
     # Build dietary preference instructions
     diet_instructions = ""
     if dietary_preferences:
         if dietary_preferences.diet_type == "vegetarian":
-            diet_instructions += "\n    5. **IMPORTANT:** Patient is VEGETARIAN. DO NOT include any meat, fish, eggs, or non-vegetarian items."
+            diet_instructions += "\n    - Patient is VEGETARIAN. NO meat, fish, or eggs."
         elif dietary_preferences.diet_type == "non-vegetarian":
-            diet_instructions += "\n    5. **NOTE:** Patient prefers non-vegetarian options. Include a good mix of vegetarian and non-vegetarian items."
-        
+            diet_instructions += "\n    - Include a mix of vegetarian and non-vegetarian items."
         if dietary_preferences.region:
-            diet_instructions += f"\n    6. **REGIONAL PREFERENCE:** Prioritize {dietary_preferences.region} Indian cuisine and dishes from that region."
+            diet_instructions += f"\n    - Prioritize {dietary_preferences.region} Indian cuisine."
+
+    # Build clinical data for prompt
+    clinical_data_for_prompt = {
+        "glucose": clinical_insights.get("patient_metrics", {}).get("glucose", 0),
+        "creatinine": clinical_insights.get("patient_metrics", {}).get("creatinine", 0),
+        "conditions": clinical_insights.get("conditions", []),
+    }
+    
+    # Avoid repeating items from previous days
+    avoid_items = ""
+    if previous_items and len(previous_items) > 0:
+        avoid_items = f"\n    AVOID THESE ITEMS (already used in previous days): {', '.join(previous_items[:20])}"
 
     prompt = f"""
-    You are an AI Clinical Dietitian.
+    You are a clinical dietitian AI creating DAY {day_number} of a 7-day meal plan.
 
-    PATIENT: {patient_profile['name']}
+    PATIENT: {patient_profile['name']}, Age: {patient_profile.get('age', 45)} years (ADULT)
     CONDITION: {summary}
+    Clinical: {json.dumps(clinical_data_for_prompt)}
+    {diet_instructions}
+    {avoid_items}
 
-    TASK:
-    Create a 1-day meal plan by selecting items from the CANDIDATE FOODS list below.
-    
-    CRITICAL RULES FOR MEAL ASSIGNMENT:
-    1. **Breakfast:** MUST be light and energetic. (e.g., Idli, Poha, Toast, Oats). DO NOT assign heavy curries, spicy gravies, or heavy rice dishes here.
-    2. **Lunch:** Should be the heaviest meal of the day (e.g., Rice, Roti, Curries, Dals).
-    3. **Dinner:** Should be lighter than lunch but substantial (e.g., Soups, Salads, Grilled items, Light Roti).
-    4. **Snacks:** Low calorie, easy to digest items.{diet_instructions}
+    Available foods: {options_preview}
 
-    CANDIDATE FOODS POOL:
-    {options_preview}
+    CRITICAL RULES FOR MEAL CATEGORIES:
+    1. **Breakfast:** MUST be a complete meal like Idli Sambhar, Poha, Upma, Paratha with Curd, or Oats with Milk. DO NOT suggest snacks like "Almonds" or "Tea" alone. NO heavy curries or rice.
+    2. **Lunch:** MUST be a full meal. Rice/Roti + Dal + Sabzi (Dry Vegetable) + Salad. Example: "2 Rotis with Paneer Curry and Salad".
+    3. **Dinner:** MUST be lighter than lunch. Khichdi, Soup with Bread, Light Roti with Dal. NO heavy biryanis or heavy fried items.
+    4. **Snacks:** Healthy light items. Roasted Chana, Fruit Chaat, Buttermilk, Sprouted Salad.
 
-    REQUIRED OUTPUT FORMAT (JSON):
+    MEAL DESCRIPTION STYLE (MANDATORY):
+    - Describe meals in natural, appetizing form.
+    - BAD: "Oats", "Milk", "Apple"
+    - GOOD: "Oats porridge cooked with skim milk and topped with apple slices"
+    - GOOD: "2 Multigrain Rotis with Palak Paneer and Cucumber Salad"
+
+    TAGGING RULES:
+    - If creatinine > 2.0 → add "renal_safe" tag
+    - If glucose > 180 → add "diabetic_friendly" tag
+
+    Return JSON with 1-2 complete meal descriptions per category:
     {{
-      "day_plan": {{
-          "breakfast": [
-              {{ 
-                "item": "Name", 
-                "calories": 100, 
-                "protein": 5, 
-                "fat": 2, 
-                "carbs": 10, 
-                "tags": ["tag1"],
-                "ingredients": ["ing1"],
-                "origin": "region"
-              }}
-          ],
-          "lunch": [],
-          "dinner": [],
-          "snacks": []
-      }},
-      "total_nutrition": {{
-          "calories": 0,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-      }},
-      "medical_reasoning": "Explain why the specific breakfast items were chosen vs lunch items."
+      "breakfast": [{{"item": "Oats porridge with skim milk", "calories": 250, "protein": 8, "fat": 4, "carbs": 45, "tags": ["diabetic_friendly"], "ingredients": ["oats", "milk"], "origin": "North"}}],
+      "lunch": [],
+      "dinner": [],
+      "snacks": []
     }}
-
-    FINAL CHECKS:
-    - Use EXACT nutritional values from the candidate list.
-    - Calculate total_nutrition correctly.
-    - Return JSON ONLY.
     """
-
-    
 
     meal_item_schema = {
         "type": "object",
@@ -563,46 +556,22 @@ def generate_structured_plan(patient_profile, clinical_data, food_candidates, di
             "protein": {"type": "number"},
             "fat": {"type": "number"},
             "carbs": {"type": "number"},
-            "tags": {
-                "type": "array",
-                "items": {"type": "string"},
-            },
-            # 👇 CHANGE THIS: Force AI to return a LIST, not a string
-            "ingredients": {
-                "type": "array", 
-                "items": {"type": "string"}
-            },
+            "tags": {"type": "array", "items": {"type": "string"}},
+            "ingredients": {"type": "array", "items": {"type": "string"}},
             "origin": {"type": "string"},
         },
-        "required": ["item", "calories", "protein", "fat", "carbs", "tags", "ingredients", "origin"],
+        "required": ["item", "calories", "protein", "fat", "carbs", "tags"],
     }
 
     schema = {
         "type": "object",
         "properties": {
-            "day_plan": {
-                "type": "object",
-                "properties": {
-                    "breakfast": {"type": "array", "items": meal_item_schema},
-                    "lunch": {"type": "array", "items": meal_item_schema},
-                    "dinner": {"type": "array", "items": meal_item_schema},
-                    "snacks": {"type": "array", "items": meal_item_schema},
-                },
-                "required": ["breakfast", "lunch", "dinner", "snacks"],
-            },
-            "total_nutrition": {
-                "type": "object",
-                "properties": {
-                    "calories": {"type": "number"},
-                    "protein": {"type": "number"},
-                    "fat": {"type": "number"},
-                    "carbs": {"type": "number"},
-                },
-                "required": ["calories", "protein", "fat", "carbs"],
-            },
-            "medical_reasoning": {"type": "string"},
+            "breakfast": {"type": "array", "items": meal_item_schema},
+            "lunch": {"type": "array", "items": meal_item_schema},
+            "dinner": {"type": "array", "items": meal_item_schema},
+            "snacks": {"type": "array", "items": meal_item_schema},
         },
-        "required": ["day_plan", "total_nutrition", "medical_reasoning"],
+        "required": ["breakfast", "lunch", "dinner", "snacks"],
     }
 
     resp = client.models.generate_content(
@@ -617,16 +586,72 @@ def generate_structured_plan(patient_profile, clinical_data, food_candidates, di
 
     if hasattr(resp, "parsed") and resp.parsed is not None:
         return resp.parsed
-
     return json.loads(resp.text.strip())
 
+
+def generate_structured_plan(patient_profile, clinical_insights, food_candidates, dietary_preferences: Optional[DietaryPreferences] = None):
+    """Generate a 7-day meal plan using PARALLEL API calls for speed."""
+    week_plan = {}
+    total_nutrition = {"calories": 0, "protein": 0, "fat": 0, "carbs": 0}
+    
+    # Generate all 7 days in PARALLEL using ThreadPoolExecutor
+    def generate_day(day_num):
+        return day_num, generate_single_day_plan(
+            patient_profile, 
+            clinical_insights, 
+            food_candidates, 
+            dietary_preferences, 
+            day_num, 
+            None  # No previous items tracking in parallel mode
+        )
+    
+    # Run all 7 API calls in parallel
+    with ThreadPoolExecutor(max_workers=7) as executor:
+        futures = [executor.submit(generate_day, day_num) for day_num in range(1, 8)]
+        
+        for future in as_completed(futures):
+            day_num, day_plan = future.result()
+            day_key = f"day{day_num}"
+            week_plan[day_key] = day_plan
+            
+            # Accumulate nutrition
+            for meal in ["breakfast", "lunch", "dinner", "snacks"]:
+                for item in day_plan.get(meal, []):
+                    total_nutrition["calories"] += item.get("calories", 0)
+                    total_nutrition["protein"] += item.get("protein", 0)
+                    total_nutrition["fat"] += item.get("fat", 0)
+                    total_nutrition["carbs"] += item.get("carbs", 0)
+    
+    # Average nutrition per day
+    for key in total_nutrition:
+        total_nutrition[key] = round(total_nutrition[key] / 7, 1)
+    
+    # Generate medical reasoning
+    conditions = clinical_insights.get("conditions", [])
+    reasoning = f"This 7-day meal plan is designed for a patient with {', '.join(conditions) if conditions else 'general health maintenance'}. "
+    reasoning += "Each day provides balanced nutrition with variety across Indian cuisines. "
+    if clinical_insights.get("patient_metrics", {}).get("glucose", 0) > 126:
+        reasoning += "Diabetic-friendly options are prioritized with low glycemic index foods. "
+    if clinical_insights.get("patient_metrics", {}).get("creatinine", 0) > 1.2:
+        reasoning += "Renal-safe options with controlled protein and sodium are included. "
+    
+    return {
+        "week_plan": week_plan,
+        "total_nutrition": total_nutrition,
+        "medical_reasoning": reasoning
+    }
+
 def round_plan(plan: Dict[str, Any], ndigits: int = 0) -> Dict[str, Any]:
-    for meal in ["breakfast", "lunch", "dinner", "snacks"]:
-        for dish in plan.get("day_plan", {}).get(meal, []):
-            for key in ["calories", "protein", "fat", "carbs"]:
-                val = dish.get(key)
-                if isinstance(val, (int, float)):
-                    dish[key] = round(val, ndigits)
+    # Round values for all 7 days in week_plan
+    week_plan = plan.get("week_plan", {})
+    for day_key in ["day1", "day2", "day3", "day4", "day5", "day6", "day7"]:
+        day_plan = week_plan.get(day_key, {})
+        for meal in ["breakfast", "lunch", "dinner", "snacks"]:
+            for dish in day_plan.get(meal, []):
+                for key in ["calories", "protein", "fat", "carbs"]:
+                    val = dish.get(key)
+                    if isinstance(val, (int, float)):
+                        dish[key] = round(val, ndigits)
 
     tn = plan.get("total_nutrition", {})
     for key in ["calories", "protein", "fat", "carbs"]:
